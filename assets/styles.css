@@ -795,3 +795,85 @@ body.policy-modal-open { overflow: hidden; }
   .policy-modal__dialog { padding: 23px 17px 17px; border-radius: 21px; }
   .policy-modal__dialog h2 { font-size: 1.32rem; }
 }
+
+/* v1.3.0 — always-visible install and responsibility actions */
+.top-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  padding-bottom: 22px;
+}
+.top-action-card {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+.top-action-card--install {
+  border-color: color-mix(in srgb, var(--primary) 28%, var(--line));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 64%, var(--surface)), var(--surface));
+}
+.top-action-card--policy {
+  border-color: color-mix(in srgb, #d49a21 30%, var(--line));
+  background: linear-gradient(135deg, color-mix(in srgb, #fff3ce 36%, var(--surface)), var(--surface));
+}
+html[data-theme="dark"] .top-action-card--policy {
+  background: linear-gradient(135deg, color-mix(in srgb, #5d4614 34%, var(--surface)), var(--surface));
+}
+.top-action-card__icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: 15px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+.top-action-card--policy .top-action-card__icon {
+  background: color-mix(in srgb, #f4b735 18%, var(--surface));
+  color: #9b6900;
+}
+.top-action-card__content { min-width: 0; }
+.top-action-card__content strong {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--text);
+  font-size: .91rem;
+  line-height: 1.35;
+}
+.top-action-card__content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .76rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 920px) {
+  .top-actions { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .top-actions { padding-bottom: 16px; }
+  .top-action-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: 14px;
+    border-radius: 18px;
+  }
+  .top-action-card .button {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-height: 46px;
+  }
+  .top-action-card__icon { width: 44px; height: 44px; border-radius: 14px; }
+  .top-action-card__content strong { font-size: .87rem; }
+  .top-action-card__content p { font-size: .74rem; }
+}

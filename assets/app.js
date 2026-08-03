@@ -22,7 +22,7 @@
   const translations = {
     vi: {
       brandTagline: 'Nhanh • Riêng tư • Miễn phí', installApp: 'Cài ứng dụng', heroEyebrow: 'Không cần đăng ký',
-      heroTitle: 'Tạo mã QR đẹp trong vài giây', heroDescription: 'Chọn nội dung, tùy chỉnh thiết kế và tải xuống. Mọi dữ liệu được xử lý trực tiếp trên thiết bị của bạn.',
+      heroTitle: 'Tạo mã QR đẹp trong vài giây', heroDescription: 'Chọn nội dung, tùy chỉnh thiết kế và tải xuống. Mọi dữ liệu được xử lý trực tiếp trên thiết bị của bạn.', installCardTitle: 'Cài QR Studio trên điện thoại', installCardText: 'Mở nhanh từ màn hình chính và sử dụng như một ứng dụng.', installCardButton: 'Cài ứng dụng', policyCardTitle: 'Sử dụng đúng mục đích và tự chịu trách nhiệm', policyCardText: 'Không tạo QR lừa đảo, giả mạo hoặc trái pháp luật. Người tạo chịu trách nhiệm về nội dung và đường dẫn.', policyCardButton: 'Xem chính sách',
       trustFree: 'Miễn phí', trustNoAccount: 'Không tài khoản', trustPrivate: 'Không gửi dữ liệu', chooseType: 'Chọn loại mã QR', chooseTypeHint: 'Bạn muốn chia sẻ nội dung gì?',
       enterContent: 'Nhập nội dung', enterContentHint: 'Điền thông tin sẽ được lưu trong mã QR.', customize: 'Tùy chỉnh thiết kế', customizeHint: 'Màu sắc, kích thước và logo.',
       resetStyle: 'Đặt lại', presetLibrary: 'Thư viện style QR', presetLibraryHint: 'Chọn nhanh 1 trong 50 preset theo ngành nghề.', presetCategory: 'Nhóm preset', applyPreset: 'Áp dụng preset', presetApplied: 'Đã áp dụng preset: {name}', categoryAll: 'Tất cả', categoryBusiness: 'Doanh nghiệp', categoryFood: 'Ẩm thực', categoryTech: 'Công nghệ', categoryBeauty: 'Thời trang & làm đẹp', categoryHealth: 'Y tế', categoryEducation: 'Giáo dục', categoryTravel: 'Du lịch', categoryEvents: 'Sự kiện', categoryRetail: 'Bán lẻ', categoryCreative: 'Sáng tạo', foregroundColor: 'Màu mã QR', backgroundColor: 'Màu nền', qrSize: 'Kích thước', errorCorrection: 'Khả năng sửa lỗi', moduleStyle: 'Kiểu điểm', labelFrames: 'Tạo label và khung QR', labelFramesHint: 'Đặt mã QR vào nhãn đẹp để in, dán sản phẩm hoặc đăng mạng xã hội.', enableLabel: 'Bật label cho mã QR', frameStyle: 'Mẫu khung', labelTitleField: 'Tiêu đề label', labelSubtitleField: 'Mô tả ngắn', labelCtaField: 'Dòng kêu gọi quét', frameAccent: 'Màu nhấn', frameBackground: 'Màu label', frameTextColor: 'Màu chữ', defaultLabelTitle: 'QUÉT MÃ QR', defaultLabelSubtitle: 'Hướng camera vào mã để mở nội dung', defaultLabelCta: 'QUÉT TẠI ĐÂY',
@@ -50,7 +50,7 @@
     },
     ja: {
       brandTagline: '高速 • 安全 • 無料', installApp: 'アプリをインストール', heroEyebrow: '登録不要',
-      heroTitle: '美しいQRコードを数秒で作成', heroDescription: '内容を選び、デザインを調整してダウンロード。すべてのデータは端末上で処理されます。',
+      heroTitle: '美しいQRコードを数秒で作成', heroDescription: '内容を選び、デザインを調整してダウンロード。すべてのデータは端末上で処理されます。', installCardTitle: 'QR Studioをスマートフォンにインストール', installCardText: 'ホーム画面からすぐに開き、アプリのように利用できます。', installCardButton: 'アプリをインストール', policyCardTitle: '適正に利用し、利用者自身が責任を負います', policyCardText: '詐欺、なりすまし、違法なQRコードを作成しないでください。内容とリンクは作成者の責任です。', policyCardButton: 'ポリシーを見る',
       trustFree: '完全無料', trustNoAccount: 'アカウント不要', trustPrivate: 'データ送信なし', chooseType: 'QRコードの種類を選択', chooseTypeHint: '何を共有しますか？',
       enterContent: '内容を入力', enterContentHint: 'QRコードに保存する情報を入力してください。', customize: 'デザインを調整', customizeHint: '色、サイズ、ロゴを設定できます。',
       resetStyle: 'リセット', presetLibrary: 'QRスタイルライブラリ', presetLibraryHint: '業種別の50種類のプリセットからすばやく選択できます。', presetCategory: 'プリセットカテゴリ', applyPreset: 'プリセットを適用', presetApplied: 'プリセットを適用しました: {name}', categoryAll: 'すべて', categoryBusiness: 'ビジネス', categoryFood: '飲食', categoryTech: 'テクノロジー', categoryBeauty: 'ファッション・美容', categoryHealth: '医療', categoryEducation: '教育', categoryTravel: '旅行', categoryEvents: 'イベント', categoryRetail: '小売', categoryCreative: 'クリエイティブ', foregroundColor: 'QRの色', backgroundColor: '背景色', qrSize: 'サイズ', errorCorrection: '誤り訂正レベル', moduleStyle: 'ドット形式', labelFrames: 'QRラベル・フレーム', labelFramesHint: '印刷、商品ラベル、SNS投稿向けの美しいフレームにQRコードを配置します。', enableLabel: 'QRラベルを有効にする', frameStyle: 'フレームデザイン', labelTitleField: 'ラベル見出し', labelSubtitleField: '短い説明', labelCtaField: 'スキャン案内', frameAccent: 'アクセント色', frameBackground: 'ラベル背景色', frameTextColor: '文字色', defaultLabelTitle: 'QRコードをスキャン', defaultLabelSubtitle: 'カメラを向けて内容を開いてください', defaultLabelCta: 'ここをスキャン',
@@ -78,7 +78,7 @@
     },
     en: {
       brandTagline: 'Fast • Private • Free', installApp: 'Install app', heroEyebrow: 'No sign-up required',
-      heroTitle: 'Create beautiful QR codes in seconds', heroDescription: 'Choose your content, customize the design, and download. All data is processed directly on your device.',
+      heroTitle: 'Create beautiful QR codes in seconds', heroDescription: 'Choose your content, customize the design, and download. All data is processed directly on your device.', installCardTitle: 'Install QR Studio on your phone', installCardText: 'Open it quickly from your Home Screen and use it like an app.', installCardButton: 'Install app', policyCardTitle: 'Use it lawfully and take responsibility', policyCardText: 'Do not create fraudulent, deceptive, or unlawful QR codes. The creator is responsible for all content and links.', policyCardButton: 'View policy',
       trustFree: 'Free forever', trustNoAccount: 'No account', trustPrivate: 'No data upload', chooseType: 'Choose a QR code type', chooseTypeHint: 'What would you like to share?',
       enterContent: 'Enter your content', enterContentHint: 'Fill in the information that will be stored in the QR code.', customize: 'Customize the design', customizeHint: 'Colors, size, and logo.',
       resetStyle: 'Reset', presetLibrary: 'QR style library', presetLibraryHint: 'Quickly choose from 50 presets grouped by industry.', presetCategory: 'Preset category', applyPreset: 'Apply preset', presetApplied: 'Preset applied: {name}', categoryAll: 'All', categoryBusiness: 'Business', categoryFood: 'Food & Drink', categoryTech: 'Technology', categoryBeauty: 'Fashion & Beauty', categoryHealth: 'Healthcare', categoryEducation: 'Education', categoryTravel: 'Travel', categoryEvents: 'Events', categoryRetail: 'Retail', categoryCreative: 'Creative', foregroundColor: 'QR color', backgroundColor: 'Background color', qrSize: 'Size', errorCorrection: 'Error correction', moduleStyle: 'Module style', labelFrames: 'QR label and frame', labelFramesHint: 'Place the QR code inside a polished label for printing, packaging, or social posts.', enableLabel: 'Enable QR label', frameStyle: 'Frame design', labelTitleField: 'Label title', labelSubtitleField: 'Short description', labelCtaField: 'Scan call-to-action', frameAccent: 'Accent color', frameBackground: 'Label background', frameTextColor: 'Text color', defaultLabelTitle: 'SCAN QR CODE', defaultLabelSubtitle: 'Point your camera at the code to open', defaultLabelCta: 'SCAN HERE',
@@ -106,7 +106,7 @@
     },
     ne: {
       brandTagline: 'छिटो • निजी • निःशुल्क', installApp: 'एप स्थापना गर्नुहोस्', heroEyebrow: 'दर्ता आवश्यक छैन',
-      heroTitle: 'केही सेकेन्डमै सुन्दर QR कोड बनाउनुहोस्', heroDescription: 'सामग्री छान्नुहोस्, डिजाइन मिलाउनुहोस् र डाउनलोड गर्नुहोस्। सबै डेटा तपाईंको उपकरणमै प्रशोधन हुन्छ।',
+      heroTitle: 'केही सेकेन्डमै सुन्दर QR कोड बनाउनुहोस्', heroDescription: 'सामग्री छान्नुहोस्, डिजाइन मिलाउनुहोस् र डाउनलोड गर्नुहोस्। सबै डेटा तपाईंको उपकरणमै प्रशोधन हुन्छ।', installCardTitle: 'फोनमा QR Studio स्थापना गर्नुहोस्', installCardText: 'गृह स्क्रिनबाट छिटो खोल्नुहोस् र एपजस्तै प्रयोग गर्नुहोस्।', installCardButton: 'एप स्थापना गर्नुहोस्', policyCardTitle: 'कानुनी रूपमा प्रयोग गर्नुहोस् र जिम्मेवारी लिनुहोस्', policyCardText: 'ठगी, भ्रामक वा गैरकानुनी QR नबनाउनुहोस्। सामग्री र लिङ्कको जिम्मेवारी निर्माताकै हुन्छ।', policyCardButton: 'नीति हेर्नुहोस्',
       trustFree: 'सधैं निःशुल्क', trustNoAccount: 'खाता आवश्यक छैन', trustPrivate: 'डेटा अपलोड हुँदैन', chooseType: 'QR कोडको प्रकार छान्नुहोस्', chooseTypeHint: 'तपाईं के साझा गर्न चाहनुहुन्छ?',
       enterContent: 'सामग्री लेख्नुहोस्', enterContentHint: 'QR कोडमा राखिने जानकारी भर्नुहोस्।', customize: 'डिजाइन मिलाउनुहोस्', customizeHint: 'रङ, आकार र लोगो।',
       resetStyle: 'रिसेट', presetLibrary: 'QR शैली पुस्तकालय', presetLibraryHint: 'उद्योग अनुसार वर्गीकृत ५० प्रिसेटबाट छिटो छान्नुहोस्।', presetCategory: 'प्रिसेट समूह', applyPreset: 'प्रिसेट लागू गर्नुहोस्', presetApplied: 'प्रिसेट लागू भयो: {name}', categoryAll: 'सबै', categoryBusiness: 'व्यवसाय', categoryFood: 'खाना र पेय', categoryTech: 'प्रविधि', categoryBeauty: 'फेसन र सौन्दर्य', categoryHealth: 'स्वास्थ्य', categoryEducation: 'शिक्षा', categoryTravel: 'यात्रा', categoryEvents: 'कार्यक्रम', categoryRetail: 'रिटेल', categoryCreative: 'सिर्जनात्मक', foregroundColor: 'QR को रङ', backgroundColor: 'पृष्ठभूमिको रङ', qrSize: 'आकार', errorCorrection: 'त्रुटि सुधार', moduleStyle: 'बिन्दु शैली', labelFrames: 'QR लेबल र फ्रेम', labelFramesHint: 'प्रिन्ट, उत्पादन लेबल वा सामाजिक सञ्जालका लागि QR कोडलाई सुन्दर फ्रेममा राख्नुहोस्।', enableLabel: 'QR लेबल सक्रिय गर्नुहोस्', frameStyle: 'फ्रेम डिजाइन', labelTitleField: 'लेबल शीर्षक', labelSubtitleField: 'छोटो विवरण', labelCtaField: 'स्क्यान सन्देश', frameAccent: 'मुख्य रङ', frameBackground: 'लेबल पृष्ठभूमि', frameTextColor: 'अक्षरको रङ', defaultLabelTitle: 'QR कोड स्क्यान गर्नुहोस्', defaultLabelSubtitle: 'खोल्नका लागि क्यामेरा कोडतर्फ राख्नुहोस्', defaultLabelCta: 'यहाँ स्क्यान गर्नुहोस्',
@@ -1575,10 +1575,12 @@
   }
 
   function updateInstallButtonVisibility() {
-    const button = $('#installBtn');
-    if (!button) return;
-    const shouldShow = !isStandaloneMode() && (isMobileDevice() || Boolean(state.deferredInstallPrompt));
-    button.classList.toggle('is-hidden', !shouldShow);
+    const installed = isStandaloneMode();
+    ['#installBtn', '#installTopBtn'].forEach((selector) => {
+      const button = $(selector);
+      if (button) button.classList.toggle('is-hidden', installed);
+    });
+    $('#installPromo')?.classList.toggle('is-hidden', installed);
   }
 
   function renderInstallGuide() {
@@ -1605,7 +1607,25 @@
     const guide = $('#installGuide');
     guide.hidden = true;
     document.body.classList.remove('install-guide-open');
-    $('#installBtn')?.focus();
+    const target = isMobileDevice() ? $('#installTopBtn') : $('#installBtn');
+    target?.focus();
+  }
+
+  async function handleInstallAction() {
+    if (isStandaloneMode()) {
+      updateInstallButtonVisibility();
+      return;
+    }
+    if (state.deferredInstallPrompt) {
+      state.deferredInstallPrompt.prompt();
+      const choice = await state.deferredInstallPrompt.userChoice;
+      if (choice?.outcome === 'accepted') {
+        state.deferredInstallPrompt = null;
+        updateInstallButtonVisibility();
+        return;
+      }
+    }
+    openInstallGuide();
   }
 
   function renderUsagePolicy() {
@@ -1678,6 +1698,7 @@
     $('#copyBtn').addEventListener('click', copyQr);
     $('#shareBtn').addEventListener('click', shareQr);
     $('#openPolicyBtn')?.addEventListener('click', openUsagePolicy);
+    $('#openPolicyTopBtn')?.addEventListener('click', openUsagePolicy);
     $('#footerPolicyBtn')?.addEventListener('click', openUsagePolicy);
     $('#usagePolicyClose')?.addEventListener('click', closeUsagePolicy);
     $('#usagePolicyDone')?.addEventListener('click', closeUsagePolicy);
@@ -1693,18 +1714,8 @@
       updateInstallButtonVisibility();
       toast(t('installReady'));
     });
-    $('#installBtn').addEventListener('click', async () => {
-      if (state.deferredInstallPrompt) {
-        state.deferredInstallPrompt.prompt();
-        const choice = await state.deferredInstallPrompt.userChoice;
-        if (choice?.outcome === 'accepted') {
-          state.deferredInstallPrompt = null;
-          updateInstallButtonVisibility();
-          return;
-        }
-      }
-      openInstallGuide();
-    });
+    $('#installBtn')?.addEventListener('click', handleInstallAction);
+    $('#installTopBtn')?.addEventListener('click', handleInstallAction);
     $('#installGuideClose').addEventListener('click', closeInstallGuide);
     $('#installGuideDone').addEventListener('click', closeInstallGuide);
     $$('[data-install-close]').forEach((element) => element.addEventListener('click', closeInstallGuide));
@@ -1719,11 +1730,19 @@
       toast(t('installed'));
     });
     window.matchMedia?.('(display-mode: standalone)').addEventListener?.('change', updateInstallButtonVisibility);
+    window.addEventListener('pageshow', updateInstallButtonVisibility);
   }
 
   function registerServiceWorker() {
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch((error) => console.warn('Service worker:', error)));
+      window.addEventListener('load', async () => {
+        try {
+          const registration = await navigator.serviceWorker.register('./sw.js?v=1.3.0');
+          await registration.update();
+        } catch (error) {
+          console.warn('Service worker:', error);
+        }
+      });
     }
   }
 

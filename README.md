@@ -1,111 +1,72 @@
-# QR Studio — Phần mềm tạo mã QR đa ngôn ngữ
+# QR Studio v1.3.0 — Full source code
 
-QR Studio là ứng dụng web tĩnh, chạy trực tiếp trên GitHub Pages, không cần backend, cơ sở dữ liệu hoặc npm.
+QR Studio là ứng dụng tạo mã QR đa ngôn ngữ chạy hoàn toàn trên GitHub Pages, không cần backend hay cơ sở dữ liệu.
 
-## Chức năng
+## Nội dung có trong bản này
 
-- 4 ngôn ngữ: Tiếng Việt, 日本語, English, नेपाली.
+- 4 ngôn ngữ: Tiếng Việt, 日本語, English và नेपाली.
 - 8 loại QR: văn bản, URL, Wi‑Fi, email, điện thoại, SMS, vị trí và vCard.
-- 50 preset style QR theo ngành nghề: doanh nghiệp, ẩm thực, công nghệ, làm đẹp, y tế, giáo dục, du lịch, sự kiện, bán lẻ và sáng tạo.
-- Trình tạo label QR với 12 khung: tối giản, bo tròn, vé sự kiện, ruy băng, doanh nghiệp, nhà hàng, Wi‑Fi, lễ hội, nhãn sản phẩm, cao cấp, Sakura và Neon.
-- Cho phép sửa tiêu đề, mô tả, lời kêu gọi quét, màu khung, màu nền và màu chữ; PNG/SVG xuất ra bao gồm toàn bộ label.
-- Tùy chỉnh màu QR, màu nền, kích thước, mức sửa lỗi, kiểu điểm và khung label.
-- Thêm logo vào giữa QR; tự chuyển mức sửa lỗi sang H.
-- Tải PNG hoặc SVG, sao chép và chia sẻ trên điện thoại.
-- Lưu tối đa 12 QR trong LocalStorage của thiết bị.
-- Giao diện sáng/tối, full responsive cho điện thoại, máy tính bảng và máy tính.
-- PWA: nút **Cài ứng dụng** luôn hiển thị trên điện thoại khi chưa cài; Android mở hộp cài trực tiếp, iPhone/iPad hiển thị hướng dẫn “Thêm vào Màn hình chính”.
-- Có mục **Chính sách sử dụng** bằng 4 ngôn ngữ: yêu cầu sử dụng hợp pháp, cấm lừa đảo/phát tán mã độc, quy định người dùng tự chịu trách nhiệm và phải kiểm tra QR trước khi phát hành.
-- Tự động triển khai bằng GitHub Actions.
+- 50 preset QR theo nhiều ngành nghề.
+- 8 hình dạng module QR.
+- 12 mẫu label và khung QR.
+- Tùy chỉnh màu QR, màu nền, kích thước, mức sửa lỗi và logo.
+- Tải PNG, SVG, sao chép, chia sẻ và lưu lịch sử trên thiết bị.
+- Giao diện sáng/tối và full responsive.
+- Nút cài ứng dụng luôn hiển thị khi chưa chạy ở chế độ PWA.
+- Hướng dẫn cài riêng cho Android, iPhone/iPad và trình duyệt khác.
+- Chính sách sử dụng hiển thị ngay gần đầu trang, có bản đầy đủ trong cửa sổ riêng và file `USAGE_POLICY.md`.
+- Service Worker v1.3.0 sử dụng network-first để hạn chế tình trạng website giữ phiên bản cũ.
 
-## Chạy thử trên Windows bằng VS Code
+## Chạy thử trong VS Code
 
-Mở Terminal tại thư mục dự án và chạy:
+Mở Terminal tại thư mục dự án:
 
 ```cmd
 py -m http.server 5500
 ```
 
-Sau đó mở:
+Mở:
 
 ```text
 http://localhost:5500
 ```
 
-Không nên mở trực tiếp `index.html` bằng `file://` vì Service Worker chỉ hoạt động qua HTTP hoặc HTTPS.
+## Cập nhật repository hiện tại
 
-## Đưa lên GitHub Pages
-
-### 1. Tạo repository mới trên GitHub
-
-Ví dụ tên repository:
-
-```text
-qr-studio-multilingual
-```
-
-### 2. Đẩy dự án lên GitHub
+1. Giải nén bản full.
+2. Chép toàn bộ file bên trong `qr-studio-multilingual` đè vào repository hiện tại.
+3. Không xóa thư mục `.git`.
+4. Chạy `PUSH_TO_GITHUB.bat`, hoặc dùng:
 
 ```cmd
-git init
-git add .
-git commit -m "Create multilingual QR Studio"
-git branch -M main
-git remote add origin https://github.com/TEN_TAI_KHOAN/qr-studio-multilingual.git
-git push -u origin main
+git add -A
+git commit -m "Release QR Studio v1.3.0"
+git push origin main
 ```
 
-### 3. Bật GitHub Pages
+Theo dõi GitHub Pages:
 
-Trong repository:
+```cmd
+gh run list --workflow deploy-pages.yml --limit 5
+```
 
-1. Mở **Settings**.
-2. Chọn **Pages**.
-3. Tại **Build and deployment → Source**, chọn **GitHub Actions**.
-4. Mở tab **Actions** và chờ workflow `Deploy QR Studio to GitHub Pages` hoàn tất.
-
-Trang sẽ có dạng:
+Website:
 
 ```text
-https://TEN_TAI_KHOAN.github.io/qr-studio-multilingual/
+https://thinhvinhnguyentran2-dotcom.github.io/qr-studio-multilingual/
 ```
 
-## Cấu trúc dự án
+## Khi điện thoại vẫn hiển thị bản cũ
 
-```text
-qr-studio-multilingual/
-├── .github/workflows/deploy-pages.yml
-├── assets/
-│   ├── app.js
-│   ├── qrcode.js
-│   └── styles.css
-├── icons/
-│   ├── icon-192.png
-│   ├── icon-512.png
-│   └── icon-maskable-512.png
-├── index.html
-├── manifest.webmanifest
-├── sw.js
-├── .nojekyll
-├── LICENSE
-├── THIRD_PARTY_NOTICES.md
-├── USAGE_POLICY.md
-└── README.md
-```
+- Đóng hoàn toàn tab hoặc PWA cũ rồi mở lại.
+- Trên Chrome Android: vào thông tin trang → Bộ nhớ → Xóa dữ liệu trang.
+- Trên iPhone: đóng Safari, mở lại link; nếu đã thêm vào Màn hình chính thì xóa biểu tượng cũ và cài lại.
+- Có thể thử bằng tab ẩn danh để xác nhận phiên bản mới đã được triển khai.
 
-## Quyền riêng tư
+## Quyền riêng tư và trách nhiệm sử dụng
 
-Nội dung QR và lịch sử được xử lý bằng JavaScript trong trình duyệt. Lịch sử được lưu trong LocalStorage của thiết bị và không được gửi tới backend.
-
-Thư viện mã nguồn mở `qrcode-generator` được đóng gói trực tiếp trong thư mục `assets`, vì vậy ứng dụng không phụ thuộc CDN hoặc dịch vụ bên ngoài khi chạy. Service Worker lưu toàn bộ tài nguyên cốt lõi để tiếp tục sử dụng khi ngoại tuyến sau lần truy cập đầu tiên.
-
-## Lưu ý khi thiết kế QR
-
-- Màu QR nên tương phản rõ với màu nền.
-- Khi thêm logo, nên giữ mức sửa lỗi H.
-- Logo không nên che quá 20% diện tích QR.
-- Mã QR kiểu chấm tròn, hình sao, hình lục giác hoặc màu quá nhạt nên được kiểm tra bằng nhiều điện thoại trước khi in.
+Nội dung QR được xử lý trong trình duyệt. Người dùng phải sử dụng đúng pháp luật và tự chịu trách nhiệm về nội dung, đường dẫn, logo, bản quyền và hậu quả phát sinh từ mã QR mình tạo. Xem `USAGE_POLICY.md`.
 
 ## Giấy phép
 
-MIT License. Thư viện `qrcode-generator` cũng được phát hành theo MIT License.
+MIT License. Thư viện `qrcode-generator` được phát hành theo MIT License.

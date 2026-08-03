@@ -10,10 +10,10 @@
   <meta property="og:description" content="Tạo mã QR miễn phí ngay trên trình duyệt." />
   <meta property="og:type" content="website" />
   <title>QR Studio — Free QR Code Generator</title>
-  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="manifest" href="manifest.webmanifest?v=1.3.0" />
   <link rel="icon" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/styles.css?v=1.3.0" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -31,7 +31,7 @@
       </a>
 
       <div class="topbar__actions">
-        <button id="installBtn" class="button button--ghost button--compact is-hidden" type="button" aria-label="Cài ứng dụng QR Studio">
+        <button id="installBtn" class="button button--ghost button--compact" type="button" aria-label="Cài ứng dụng QR Studio">
           <span class="install-button__icon" aria-hidden="true">⇩</span>
           <span class="install-label" data-i18n="installApp">Cài ứng dụng</span>
         </button>
@@ -72,6 +72,30 @@
         <div class="floating-card floating-card--two">Wi‑Fi</div>
         <div class="floating-card floating-card--three">vCard</div>
       </div>
+    </section>
+
+    <section class="top-actions shell" aria-label="Cài đặt và chính sách sử dụng">
+      <article id="installPromo" class="top-action-card top-action-card--install">
+        <span class="top-action-card__icon" aria-hidden="true">⇩</span>
+        <div class="top-action-card__content">
+          <strong data-i18n="installCardTitle">Cài QR Studio trên điện thoại</strong>
+          <p data-i18n="installCardText">Mở nhanh từ màn hình chính và sử dụng như một ứng dụng.</p>
+        </div>
+        <button id="installTopBtn" class="button button--primary button--compact" type="button">
+          <span aria-hidden="true">＋</span><span data-i18n="installCardButton">Cài ứng dụng</span>
+        </button>
+      </article>
+
+      <article class="top-action-card top-action-card--policy">
+        <span class="top-action-card__icon" aria-hidden="true">⚖</span>
+        <div class="top-action-card__content">
+          <strong data-i18n="policyCardTitle">Sử dụng đúng mục đích và tự chịu trách nhiệm</strong>
+          <p data-i18n="policyCardText">Không tạo QR lừa đảo, giả mạo hoặc trái pháp luật. Người tạo chịu trách nhiệm về nội dung và đường dẫn.</p>
+        </div>
+        <button id="openPolicyTopBtn" class="button button--secondary button--compact" type="button">
+          <span aria-hidden="true">§</span><span data-i18n="policyCardButton">Xem chính sách</span>
+        </button>
+      </article>
     </section>
 
     <section class="workspace shell" aria-label="QR generator">
@@ -397,7 +421,7 @@
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-  <script src="assets/qrcode.js"></script>
-  <script src="assets/app.js" defer></script>
+  <script src="assets/qrcode.js?v=1.3.0"></script>
+  <script src="assets/app.js?v=1.3.0" defer></script>
 </body>
 </html>
