@@ -5,7 +5,7 @@ cd /d "%~dp0"
 
 echo.
 echo ===============================================
-echo   QR Studio v1.3.0 - Cap nhat GitHub
+echo   QR Studio v1.3.1 - Cap nhat GitHub
 ECHO ===============================================
 echo.
 
@@ -37,7 +37,7 @@ if not errorlevel 1 (
 ) else (
   echo.
   echo [3/4] Tao commit...
-  git commit -m "Release QR Studio v1.3.0 full mobile install and usage policy"
+  git commit -m "Release QR Studio v1.3.1 mobile scroll install button"
   if errorlevel 1 (
     echo [LOI] Tao commit that bai.
     pause
