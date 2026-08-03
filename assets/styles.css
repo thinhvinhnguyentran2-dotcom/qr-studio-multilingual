@@ -341,7 +341,6 @@ html[data-theme="dark"] .theme-icon--moon { display: none; }
   .shell { width: min(calc(100% - 28px), var(--shell)); }
   .topbar__inner { min-height: 68px; }
   .brand small { display: none; }
-  #installBtn { display: none !important; }
   .hero { min-height: auto; grid-template-columns: 1fr; padding-block: 54px 34px; }
   .hero__copy { max-width: 690px; }
   .hero__visual { display: none; }
@@ -525,4 +524,274 @@ html[data-theme="dark"] .theme-icon--moon { display: none; }
 }
 @media (max-width: 480px) {
   .frame-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+
+/* PWA install button and mobile installation guide */
+#installBtn { white-space: nowrap; }
+.install-button__icon { font-size: 1rem; font-weight: 900; line-height: 1; }
+
+.install-guide {
+  position: fixed;
+  z-index: 140;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.install-guide[hidden] { display: none !important; }
+.install-guide__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 13, 35, .68);
+  backdrop-filter: blur(7px);
+}
+.install-guide__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 440px);
+  max-height: min(720px, calc(100dvh - 32px));
+  overflow: auto;
+  padding: 28px;
+  border: 1px solid color-mix(in srgb, var(--primary) 20%, var(--line));
+  border-radius: 24px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 28px 80px rgba(18, 12, 55, .34);
+}
+.install-guide__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 1.35rem;
+}
+.install-guide__close:hover { color: var(--primary); border-color: var(--primary); }
+.install-guide__icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--primary), #8f65ff);
+  color: white;
+  box-shadow: 0 12px 28px rgba(103, 87, 245, .28);
+  font-size: 1.65rem;
+}
+.install-guide__dialog h2 { margin: 0 44px 8px 0; font-size: 1.45rem; letter-spacing: -.03em; }
+.install-guide__dialog > p { margin: 0 0 18px; color: var(--muted); line-height: 1.6; font-size: .88rem; }
+.install-guide__steps { display: grid; gap: 10px; margin: 0 0 22px; padding: 0; list-style: none; counter-reset: install-step; }
+.install-guide__steps li {
+  position: relative;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 11px 12px 11px 54px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-soft);
+  line-height: 1.45;
+  font-size: .84rem;
+  counter-increment: install-step;
+}
+.install-guide__steps li::before {
+  content: counter(install-step);
+  position: absolute;
+  left: 12px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-weight: 900;
+}
+body.install-guide-open { overflow: hidden; }
+
+@media (max-width: 820px) {
+  #installBtn:not(.is-hidden) {
+    position: fixed;
+    z-index: 90;
+    right: 13px;
+    bottom: max(13px, env(safe-area-inset-bottom));
+    min-height: 50px;
+    padding: 0 17px;
+    border: 0;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--primary), #8269ff);
+    color: white;
+    box-shadow: 0 14px 35px rgba(65, 47, 196, .38);
+    animation: installCtaIn .35s ease both;
+  }
+  #installBtn:not(.is-hidden):hover { color: white; background: linear-gradient(135deg, var(--primary-strong), #775dff); }
+  .toast { bottom: calc(78px + env(safe-area-inset-bottom)); }
+}
+
+@media (max-width: 420px) {
+  #installBtn:not(.is-hidden) { right: 10px; bottom: max(10px, env(safe-area-inset-bottom)); min-height: 47px; padding-inline: 14px; font-size: .75rem; }
+  .install-guide { padding: 12px; }
+  .install-guide__dialog { padding: 23px 18px 18px; border-radius: 21px; }
+}
+
+@keyframes installCtaIn {
+  from { opacity: 0; transform: translateY(14px) scale(.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Usage policy */
+.usage-policy { padding-bottom: 42px; }
+.usage-policy__header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 18px;
+  padding: 24px;
+  border: 1px solid color-mix(in srgb, var(--primary) 18%, var(--line));
+  border-radius: 22px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary-soft) 74%, var(--surface)), var(--surface));
+  box-shadow: var(--shadow-soft);
+}
+.usage-policy__header > div { max-width: 760px; }
+.usage-policy__header h2 { margin: 8px 0 7px; font-size: clamp(1.42rem, 3vw, 2rem); letter-spacing: -.035em; }
+.usage-policy__header p { margin: 0; color: var(--muted); line-height: 1.65; font-size: .9rem; }
+.usage-policy__header .button { flex: 0 0 auto; }
+.usage-policy__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.usage-policy__grid article {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+.usage-policy__icon {
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 13px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.usage-policy__grid h3 { margin: 2px 0 6px; font-size: .91rem; }
+.usage-policy__grid p { margin: 0; color: var(--muted); line-height: 1.55; font-size: .76rem; }
+.footer__legal { display: grid; justify-items: end; gap: 7px; }
+.footer__policy-link {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: var(--primary);
+  font-size: .77rem;
+  font-weight: 800;
+}
+.footer__policy-link:hover { color: var(--primary-strong); }
+
+.policy-modal {
+  position: fixed;
+  z-index: 150;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.policy-modal[hidden] { display: none !important; }
+.policy-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 13, 35, .72);
+  backdrop-filter: blur(8px);
+}
+.policy-modal__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 720px);
+  max-height: min(820px, calc(100dvh - 32px));
+  overflow: auto;
+  padding: 28px;
+  border: 1px solid color-mix(in srgb, var(--primary) 22%, var(--line));
+  border-radius: 24px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 30px 90px rgba(18, 12, 55, .38);
+}
+.policy-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 1.35rem;
+}
+.policy-modal__close:hover { color: var(--primary); border-color: var(--primary); }
+.policy-modal__icon {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--primary), #8f65ff);
+  color: white;
+  box-shadow: 0 12px 28px rgba(103, 87, 245, .28);
+  font-size: 1.55rem;
+}
+.policy-modal__dialog h2 { margin: 0 48px 8px 0; font-size: 1.55rem; letter-spacing: -.035em; }
+.policy-modal__intro { margin: 0 0 18px; color: var(--muted); line-height: 1.65; font-size: .88rem; }
+.policy-modal__sections { display: grid; gap: 10px; }
+.policy-modal__section {
+  padding: 14px 15px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--surface-soft);
+}
+.policy-modal__section h3 { margin: 0 0 5px; font-size: .87rem; }
+.policy-modal__section p { margin: 0; color: var(--muted); line-height: 1.55; font-size: .79rem; }
+.policy-modal__acknowledgement {
+  margin: 16px 0 18px;
+  padding: 13px 14px;
+  border-left: 4px solid var(--primary);
+  border-radius: 0 13px 13px 0;
+  background: var(--primary-soft);
+  color: var(--text);
+  line-height: 1.55;
+  font-size: .81rem;
+  font-weight: 700;
+}
+body.policy-modal-open { overflow: hidden; }
+
+@media (max-width: 820px) {
+  .usage-policy__header { align-items: flex-start; flex-direction: column; }
+  .usage-policy__grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 620px) {
+  .usage-policy { padding-bottom: 32px; }
+  .usage-policy__header { padding: 19px 16px; border-radius: 20px; }
+  .usage-policy__header .button { width: 100%; }
+  .usage-policy__grid article { padding: 15px; }
+  .footer__legal { justify-items: start; }
+  .policy-modal { padding: 10px; }
+  .policy-modal__dialog { padding: 23px 17px 17px; border-radius: 21px; }
+  .policy-modal__dialog h2 { font-size: 1.32rem; }
 }

@@ -32,7 +32,7 @@
       localHistory: 'Lưu cục bộ', historyTitle: 'Lịch sử gần đây', historyHint: 'Tối đa 12 mã QR được lưu trên thiết bị này.', clearHistory: 'Xóa lịch sử', historyEmptyTitle: 'Chưa có mã QR nào', historyEmptyHint: 'Mã QR bạn lưu sẽ xuất hiện tại đây.',
       featureFastTitle: 'Tạo tức thì', featureFastText: 'Xem trước cập nhật ngay khi nhập.', featureResponsiveTitle: 'Tối ưu điện thoại', featureResponsiveText: 'Giao diện full responsive trên mọi màn hình.',
       featureOfflineTitle: 'Có thể cài đặt', featureOfflineText: 'Thêm vào màn hình chính như một ứng dụng.', featureLanguageTitle: '4 ngôn ngữ', featureLanguageText: 'Việt, Nhật, Anh và Nepal.',
-      footerTagline: 'Tạo QR miễn phí cho mọi người', footerOpenSource: 'Mã nguồn mở, triển khai trên GitHub Pages.',
+      footerTagline: 'Tạo QR miễn phí cho mọi người', footerOpenSource: 'Mã nguồn mở, triển khai trên GitHub Pages.', policyEyebrow: 'Sử dụng có trách nhiệm', policyTitle: 'Chính sách sử dụng QR Studio', policyIntro: 'Hãy tạo và chia sẻ mã QR đúng pháp luật, tôn trọng người khác và tự chịu trách nhiệm về nội dung bạn đưa vào mã QR.', policyLawfulTitle: 'Sử dụng đúng mục đích', policyLawfulText: 'Không dùng QR Studio cho lừa đảo, giả mạo, phát tán mã độc, quấy rối hoặc nội dung trái pháp luật.', policyResponsibilityTitle: 'Bạn tự chịu trách nhiệm', policyResponsibilityText: 'Bạn chịu trách nhiệm về đường dẫn, dữ liệu, bản quyền, quyền riêng tư và mọi hậu quả phát sinh từ mã QR mình tạo.', policyCheckTitle: 'Kiểm tra trước khi phát hành', policyCheckText: 'Luôn thử quét, kiểm tra đường dẫn, độ tương phản và nội dung trước khi in hoặc chia sẻ rộng rãi.', policyReadFull: 'Đọc toàn bộ chính sách', policyFooterLink: 'Chính sách sử dụng',
       typeText: 'Văn bản', typeUrl: 'Liên kết', typeWifi: 'Wi‑Fi', typeEmail: 'Email', typePhone: 'Điện thoại', typeSms: 'SMS', typeLocation: 'Vị trí', typeVcard: 'Danh thiếp',
       hintText: 'Nhập đoạn văn hoặc thông tin bất kỳ.', hintUrl: 'Tạo QR mở một trang web.', hintWifi: 'Kết nối Wi‑Fi mà không cần nhập mật khẩu.', hintEmail: 'Soạn sẵn một email cho người quét.', hintPhone: 'Gọi nhanh đến một số điện thoại.', hintSms: 'Soạn sẵn tin nhắn SMS.', hintLocation: 'Mở tọa độ trên ứng dụng bản đồ.', hintVcard: 'Lưu thông tin liên hệ vào danh bạ.',
       labelText: 'Nội dung', labelUrl: 'Địa chỉ website', labelNetwork: 'Tên Wi‑Fi (SSID)', labelPassword: 'Mật khẩu', labelSecurity: 'Bảo mật', labelHidden: 'Mạng ẩn',
@@ -60,7 +60,7 @@
       localHistory: '端末内保存', historyTitle: '最近の履歴', historyHint: 'この端末に最大12件保存します。', clearHistory: '履歴を削除', historyEmptyTitle: '履歴はまだありません', historyEmptyHint: '保存したQRコードがここに表示されます。',
       featureFastTitle: '即時作成', featureFastText: '入力に合わせてプレビューを更新。', featureResponsiveTitle: 'スマホ最適化', featureResponsiveText: 'すべての画面サイズに完全対応。',
       featureOfflineTitle: 'インストール可能', featureOfflineText: 'ホーム画面にアプリとして追加。', featureLanguageTitle: '4言語対応', featureLanguageText: 'ベトナム語、日本語、英語、ネパール語。',
-      footerTagline: 'すべての人のための無料QR作成', footerOpenSource: 'オープンソース・GitHub Pages対応。',
+      footerTagline: 'すべての人のための無料QR作成', footerOpenSource: 'オープンソース・GitHub Pages対応。', policyEyebrow: '責任ある利用', policyTitle: 'QR Studio 利用ポリシー', policyIntro: '法律を守り、他者の権利を尊重し、QRコードに含める内容について利用者自身が責任を負ってください。', policyLawfulTitle: '正しい目的で利用', policyLawfulText: '詐欺、なりすまし、マルウェア配布、嫌がらせ、違法な内容のために使用しないでください。', policyResponsibilityTitle: '利用者の責任', policyResponsibilityText: 'リンク、データ、著作権、プライバシー、および作成したQRコードから生じる結果は利用者の責任です。', policyCheckTitle: '公開前に確認', policyCheckText: '印刷や公開前に、読み取り、リンク先、コントラスト、内容を必ず確認してください。', policyReadFull: '利用ポリシー全文', policyFooterLink: '利用ポリシー',
       typeText: 'テキスト', typeUrl: 'URL', typeWifi: 'Wi‑Fi', typeEmail: 'メール', typePhone: '電話', typeSms: 'SMS', typeLocation: '位置情報', typeVcard: '連絡先',
       hintText: '自由な文章や情報を入力します。', hintUrl: 'Webページを開くQRを作成します。', hintWifi: 'パスワード入力なしでWi‑Fiに接続します。', hintEmail: 'メールの宛先と本文を設定します。', hintPhone: '電話番号へすぐ発信します。', hintSms: 'SMSの宛先と本文を設定します。', hintLocation: '地図アプリで座標を開きます。', hintVcard: '連絡先を端末のアドレス帳へ保存します。',
       labelText: 'テキスト', labelUrl: 'WebサイトURL', labelNetwork: 'Wi‑Fi名（SSID）', labelPassword: 'パスワード', labelSecurity: 'セキュリティ', labelHidden: '非公開ネットワーク',
@@ -88,7 +88,7 @@
       localHistory: 'Stored locally', historyTitle: 'Recent history', historyHint: 'Up to 12 QR codes are stored on this device.', clearHistory: 'Clear history', historyEmptyTitle: 'No QR codes yet', historyEmptyHint: 'QR codes you save will appear here.',
       featureFastTitle: 'Instant generation', featureFastText: 'The preview updates as you type.', featureResponsiveTitle: 'Mobile optimized', featureResponsiveText: 'Fully responsive across every screen size.',
       featureOfflineTitle: 'Installable', featureOfflineText: 'Add it to your home screen like an app.', featureLanguageTitle: '4 languages', featureLanguageText: 'Vietnamese, Japanese, English, and Nepali.',
-      footerTagline: 'Free QR creation for everyone', footerOpenSource: 'Open source and ready for GitHub Pages.',
+      footerTagline: 'Free QR creation for everyone', footerOpenSource: 'Open source and ready for GitHub Pages.', policyEyebrow: 'Responsible use', policyTitle: 'QR Studio Usage Policy', policyIntro: 'Create and share QR codes lawfully, respect other people, and take responsibility for the content you place in each QR code.', policyLawfulTitle: 'Use it for lawful purposes', policyLawfulText: 'Do not use QR Studio for fraud, impersonation, malware distribution, harassment, or unlawful content.', policyResponsibilityTitle: 'You are responsible', policyResponsibilityText: 'You are responsible for links, data, copyright, privacy, and any consequences arising from the QR codes you create.', policyCheckTitle: 'Test before publishing', policyCheckText: 'Always test scanning, destination links, contrast, and content before printing or sharing widely.', policyReadFull: 'Read the full policy', policyFooterLink: 'Usage Policy',
       typeText: 'Text', typeUrl: 'URL', typeWifi: 'Wi‑Fi', typeEmail: 'Email', typePhone: 'Phone', typeSms: 'SMS', typeLocation: 'Location', typeVcard: 'Contact',
       hintText: 'Enter any text or information.', hintUrl: 'Create a QR code that opens a website.', hintWifi: 'Join Wi‑Fi without typing the password.', hintEmail: 'Prepare an email for the scanner.', hintPhone: 'Call a phone number quickly.', hintSms: 'Prepare an SMS message.', hintLocation: 'Open coordinates in a map app.', hintVcard: 'Save contact details to an address book.',
       labelText: 'Content', labelUrl: 'Website address', labelNetwork: 'Wi‑Fi name (SSID)', labelPassword: 'Password', labelSecurity: 'Security', labelHidden: 'Hidden network',
@@ -116,7 +116,7 @@
       localHistory: 'उपकरणमै सुरक्षित', historyTitle: 'हालको इतिहास', historyHint: 'यस उपकरणमा अधिकतम 12 QR कोड राखिन्छ।', clearHistory: 'इतिहास मेटाउनुहोस्', historyEmptyTitle: 'अहिलेसम्म QR कोड छैन', historyEmptyHint: 'तपाईंले सुरक्षित गरेका QR कोड यहाँ देखिन्छन्।',
       featureFastTitle: 'तुरुन्तै तयार', featureFastText: 'टाइप गर्दा पूर्वावलोकन अपडेट हुन्छ।', featureResponsiveTitle: 'मोबाइलमैत्री', featureResponsiveText: 'सबै स्क्रिन आकारमा पूर्ण रूपमा मिल्छ।',
       featureOfflineTitle: 'स्थापना गर्न मिल्ने', featureOfflineText: 'एपजस्तै गृह स्क्रिनमा थप्नुहोस्।', featureLanguageTitle: '४ भाषा', featureLanguageText: 'भियतनामी, जापानी, अङ्ग्रेजी र नेपाली।',
-      footerTagline: 'सबैका लागि निःशुल्क QR निर्माण', footerOpenSource: 'खुला स्रोत र GitHub Pages का लागि तयार।',
+      footerTagline: 'सबैका लागि निःशुल्क QR निर्माण', footerOpenSource: 'खुला स्रोत र GitHub Pages का लागि तयार।', policyEyebrow: 'जिम्मेवार प्रयोग', policyTitle: 'QR Studio प्रयोग नीति', policyIntro: 'QR कोड कानुनअनुसार बनाउनुहोस्, अरूको अधिकारको सम्मान गर्नुहोस् र राखिएको सामग्रीको जिम्मेवारी आफैं लिनुहोस्।', policyLawfulTitle: 'सही उद्देश्यका लागि प्रयोग', policyLawfulText: 'ठगी, नक्कली पहिचान, हानिकारक सफ्टवेयर, दुर्व्यवहार वा गैरकानुनी सामग्रीका लागि प्रयोग नगर्नुहोस्।', policyResponsibilityTitle: 'जिम्मेवारी तपाईंको हो', policyResponsibilityText: 'लिङ्क, डेटा, प्रतिलिपि अधिकार, गोपनीयता र तपाईंले बनाएको QR बाट हुने परिणामको जिम्मेवारी तपाईंको हो।', policyCheckTitle: 'प्रकाशनअघि परीक्षण', policyCheckText: 'प्रिन्ट वा व्यापक रूपमा साझा गर्नुअघि स्क्यान, लिङ्क, कन्ट्रास्ट र सामग्री जाँच गर्नुहोस्।', policyReadFull: 'पूर्ण नीति पढ्नुहोस्', policyFooterLink: 'प्रयोग नीति',
       typeText: 'पाठ', typeUrl: 'लिङ्क', typeWifi: 'Wi‑Fi', typeEmail: 'इमेल', typePhone: 'फोन', typeSms: 'SMS', typeLocation: 'स्थान', typeVcard: 'सम्पर्क',
       hintText: 'कुनै पनि पाठ वा जानकारी लेख्नुहोस्।', hintUrl: 'वेबसाइट खोल्ने QR बनाउनुहोस्।', hintWifi: 'पासवर्ड नलेखी Wi‑Fi जोड्नुहोस्।', hintEmail: 'स्क्यान गर्ने व्यक्तिका लागि इमेल तयार गर्नुहोस्।', hintPhone: 'फोन नम्बरमा छिटो कल गर्नुहोस्।', hintSms: 'SMS सन्देश तयार गर्नुहोस्।', hintLocation: 'नक्सा एपमा निर्देशाङ्क खोल्नुहोस्।', hintVcard: 'सम्पर्क विवरण फोनबुकमा राख्नुहोस्।',
       labelText: 'सामग्री', labelUrl: 'वेबसाइट ठेगाना', labelNetwork: 'Wi‑Fi नाम (SSID)', labelPassword: 'पासवर्ड', labelSecurity: 'सुरक्षा', labelHidden: 'लुकेको नेटवर्क',
@@ -1452,12 +1452,200 @@
     toastTimer = setTimeout(() => element.classList.remove('is-visible'), 2600);
   }
 
+
+  const usagePolicyCopy = {
+    vi: {
+      title: 'Chính sách sử dụng QR Studio',
+      intro: 'QR Studio là công cụ hỗ trợ tạo mã QR. Người dùng phải sử dụng công cụ đúng pháp luật, đúng mục đích và tự chịu trách nhiệm về nội dung, đường dẫn và cách phân phối mã QR do mình tạo.',
+      sections: [
+        { title: '1. Mục đích sử dụng hợp pháp', text: 'Chỉ sử dụng QR Studio cho mục đích hợp pháp, minh bạch và không xâm phạm quyền hoặc lợi ích hợp pháp của cá nhân, tổ chức khác.' },
+        { title: '2. Các hành vi không được phép', text: 'Không dùng mã QR để lừa đảo, giả mạo, đánh cắp thông tin, phát tán mã độc, chuyển hướng đến nội dung nguy hiểm, quấy rối, vi phạm bản quyền hoặc thực hiện hành vi trái pháp luật.' },
+        { title: '3. Trách nhiệm về nội dung', text: 'Người dùng tự chịu trách nhiệm về văn bản, đường dẫn, hình ảnh, logo, thông tin liên hệ, dữ liệu cá nhân và mọi nội dung được đưa vào mã QR. Hãy bảo đảm bạn có quyền sử dụng và chia sẻ các nội dung đó.' },
+        { title: '4. Kiểm tra trước khi phát hành', text: 'Hãy thử quét bằng nhiều thiết bị, kiểm tra chính xác đường dẫn, nội dung, độ tương phản, kích thước và khả năng đọc trước khi in, dán lên sản phẩm hoặc chia sẻ rộng rãi.' },
+        { title: '5. Quyền riêng tư và dịch vụ bên thứ ba', text: 'QR Studio tạo mã QR trực tiếp trên thiết bị. Tuy nhiên, khi mã QR dẫn đến website hoặc dịch vụ bên thứ ba, chính sách và mức độ an toàn của dịch vụ đó sẽ được áp dụng.' },
+        { title: '6. Giới hạn trách nhiệm', text: 'Công cụ được cung cấp miễn phí theo hiện trạng. Tác giả không kiểm duyệt nội dung người dùng tạo và không chịu trách nhiệm cho thiệt hại phát sinh từ việc sử dụng sai mục đích, đường dẫn hỏng, nội dung độc hại, lỗi in ấn hoặc mã QR không thể quét.' },
+        { title: '7. Thay đổi chính sách', text: 'Chính sách có thể được điều chỉnh để phù hợp với tính năng mới và yêu cầu an toàn. Phiên bản hiển thị trong ứng dụng là phiên bản đang áp dụng.' }
+      ],
+      acknowledgement: 'Bằng việc tiếp tục sử dụng QR Studio, bạn xác nhận đã hiểu các nguyên tắc trên và đồng ý tự chịu trách nhiệm về mã QR do mình tạo và chia sẻ.',
+      done: 'Tôi đã hiểu', close: 'Đóng'
+    },
+    ja: {
+      title: 'QR Studio 利用ポリシー',
+      intro: 'QR StudioはQRコード作成を支援するツールです。利用者は法律と適切な目的に従って使用し、作成したQRコードの内容、リンク、配布方法について自ら責任を負います。',
+      sections: [
+        { title: '1. 合法的な目的', text: '法律を守り、透明性のある目的で使用し、個人または組織の正当な権利や利益を侵害しないでください。' },
+        { title: '2. 禁止される利用', text: '詐欺、なりすまし、情報窃取、マルウェア配布、危険なサイトへの誘導、嫌がらせ、著作権侵害、その他の違法行為に使用しないでください。' },
+        { title: '3. コンテンツの責任', text: 'QRコードに含める文章、リンク、画像、ロゴ、連絡先、個人情報については利用者が責任を負います。使用・共有する権利があることを確認してください。' },
+        { title: '4. 公開前の確認', text: '印刷、商品への貼付、広範囲な共有の前に、複数の端末で読み取り、リンク先、内容、コントラスト、サイズを確認してください。' },
+        { title: '5. プライバシーと第三者サービス', text: 'QR Studioは端末上でQRコードを生成します。ただし、リンク先のWebサイトや第三者サービスには、それぞれの規約とプライバシーポリシーが適用されます。' },
+        { title: '6. 責任の制限', text: '本ツールは無料で現状のまま提供されます。作者は利用者の内容を審査せず、不正利用、無効なリンク、有害な内容、印刷不良、読み取り不能などによる損害について責任を負いません。' },
+        { title: '7. ポリシーの変更', text: '新機能や安全上の要件に応じて本ポリシーを変更する場合があります。アプリ内に表示される内容が現在の適用版です。' }
+      ],
+      acknowledgement: 'QR Studioを継続して使用することで、上記を理解し、作成・共有するQRコードについて自ら責任を負うことに同意したものとみなされます。',
+      done: '理解しました', close: '閉じる'
+    },
+    en: {
+      title: 'QR Studio Usage Policy',
+      intro: 'QR Studio is a tool for creating QR codes. You must use it lawfully and for legitimate purposes, and you are responsible for the content, destination links, and distribution of every QR code you create.',
+      sections: [
+        { title: '1. Lawful use', text: 'Use QR Studio only for lawful and transparent purposes that do not infringe the legitimate rights or interests of another person or organization.' },
+        { title: '2. Prohibited misuse', text: 'Do not use QR codes for fraud, impersonation, credential theft, malware distribution, unsafe redirects, harassment, copyright infringement, or any unlawful activity.' },
+        { title: '3. Responsibility for content', text: 'You are responsible for all text, links, images, logos, contact details, personal data, and other content placed in a QR code. Make sure you have permission to use and share it.' },
+        { title: '4. Test before release', text: 'Before printing, attaching a QR code to a product, or sharing it widely, test it on multiple devices and verify the destination, content, contrast, size, and scan reliability.' },
+        { title: '5. Privacy and third parties', text: 'QR Studio generates QR codes on your device. When a QR code opens a third-party website or service, that provider’s terms, privacy practices, and security measures apply.' },
+        { title: '6. Limitation of responsibility', text: 'The tool is provided free of charge and as-is. The author does not review user-generated content and is not responsible for loss caused by misuse, broken links, malicious destinations, printing defects, or unscannable QR codes.' },
+        { title: '7. Policy changes', text: 'This policy may be updated for new features or safety requirements. The version displayed in the application is the version currently in effect.' }
+      ],
+      acknowledgement: 'By continuing to use QR Studio, you confirm that you understand these rules and accept responsibility for the QR codes you create and distribute.',
+      done: 'I understand', close: 'Close'
+    },
+    ne: {
+      title: 'QR Studio प्रयोग नीति',
+      intro: 'QR Studio QR कोड बनाउन सहयोग गर्ने उपकरण हो। यसलाई कानुनअनुसार र उचित उद्देश्यका लागि प्रयोग गर्नुहोस्, र बनाइएको QR को सामग्री, लिङ्क तथा वितरणको जिम्मेवारी आफैं लिनुहोस्।',
+      sections: [
+        { title: '१. कानुनी प्रयोग', text: 'QR Studio कानुनी, पारदर्शी र अरू व्यक्ति वा संस्थाको अधिकार तथा हित नउल्लङ्घन गर्ने उद्देश्यका लागि मात्र प्रयोग गर्नुहोस्।' },
+        { title: '२. निषेधित दुरुपयोग', text: 'ठगी, नक्कली पहिचान, गोप्य जानकारी चोरी, हानिकारक सफ्टवेयर, असुरक्षित लिङ्क, दुर्व्यवहार, प्रतिलिपि अधिकार उल्लङ्घन वा गैरकानुनी कामका लागि प्रयोग नगर्नुहोस्।' },
+        { title: '३. सामग्रीको जिम्मेवारी', text: 'QR मा राखिएको पाठ, लिङ्क, तस्बिर, लोगो, सम्पर्क विवरण, व्यक्तिगत डेटा र अन्य सामग्रीको जिम्मेवारी प्रयोगकर्ताकै हुन्छ। प्रयोग तथा साझा गर्ने अनुमति भएको सुनिश्चित गर्नुहोस्।' },
+        { title: '४. सार्वजनिक गर्नुअघि परीक्षण', text: 'प्रिन्ट, उत्पादनमा टाँस्ने वा व्यापक रूपमा साझा गर्नुअघि विभिन्न उपकरणमा स्क्यान गरी लिङ्क, सामग्री, कन्ट्रास्ट, आकार र पढ्न सकिने अवस्था जाँच गर्नुहोस्।' },
+        { title: '५. गोपनीयता र तेस्रो पक्ष', text: 'QR Studio ले उपकरणमै QR बनाउँछ। QR ले तेस्रो पक्षको वेबसाइट वा सेवामा लैजाँदा त्यस सेवाको नीति, गोपनीयता र सुरक्षा लागू हुन्छ।' },
+        { title: '६. जिम्मेवारीको सीमा', text: 'यो उपकरण निःशुल्क र यथास्थितिमा उपलब्ध छ। लेखकले प्रयोगकर्ताको सामग्री जाँच गर्दैन र दुरुपयोग, बिग्रिएको लिङ्क, हानिकारक गन्तव्य, प्रिन्ट त्रुटि वा स्क्यान नहुने QR बाट हुने क्षतिको जिम्मेवारी लिँदैन।' },
+        { title: '७. नीति परिवर्तन', text: 'नयाँ सुविधा वा सुरक्षा आवश्यकताअनुसार नीति परिवर्तन हुन सक्छ। एपमा देखाइएको संस्करण हाल लागू संस्करण हो।' }
+      ],
+      acknowledgement: 'QR Studio प्रयोग जारी राख्दा तपाईंले यी नियम बुझ्नुभएको र आफूले बनाएको तथा साझा गरेको QR को जिम्मेवारी लिने सहमति दिनुभएको मानिन्छ।',
+      done: 'मैले बुझें', close: 'बन्द गर्नुहोस्'
+    }
+  };
+
+  const installGuideCopy = {
+    vi: {
+      title: 'Cài QR Studio trên điện thoại',
+      iosDescription: 'Trên iPhone hoặc iPad, trình duyệt không hiện hộp cài tự động. Hãy thêm QR Studio vào Màn hình chính theo các bước sau:',
+      androidDescription: 'Hãy cài QR Studio như một ứng dụng để mở nhanh, dùng toàn màn hình và tiếp tục sử dụng khi kết nối không ổn định.',
+      genericDescription: 'Trình duyệt chưa mở hộp cài tự động. Bạn vẫn có thể thêm QR Studio vào màn hình chính từ menu trình duyệt.',
+      iosSteps: ['Mở trang bằng Safari.', 'Nhấn nút Chia sẻ ở thanh công cụ.', 'Chọn “Thêm vào Màn hình chính”.', 'Nhấn “Thêm” để hoàn tất.'],
+      androidSteps: ['Nhấn menu ba chấm ⋮ của trình duyệt.', 'Chọn “Cài đặt ứng dụng” hoặc “Thêm vào màn hình chính”.', 'Xác nhận “Cài đặt”.'],
+      genericSteps: ['Mở menu của trình duyệt.', 'Chọn “Cài đặt ứng dụng” hoặc “Thêm vào màn hình chính”.', 'Xác nhận để hoàn tất.'],
+      done: 'Đã hiểu', close: 'Đóng'
+    },
+    ja: {
+      title: 'QR Studioをスマートフォンにインストール',
+      iosDescription: 'iPhone・iPadでは自動インストール画面が表示されません。次の手順でホーム画面に追加してください。',
+      androidDescription: 'QR Studioをアプリとしてインストールすると、すぐに起動でき、全画面で利用できます。',
+      genericDescription: '自動インストール画面がまだ利用できません。ブラウザのメニューからホーム画面に追加できます。',
+      iosSteps: ['Safariでこのページを開きます。', 'ツールバーの共有ボタンを押します。', '「ホーム画面に追加」を選びます。', '「追加」を押して完了します。'],
+      androidSteps: ['ブラウザの三点メニュー ⋮ を押します。', '「アプリをインストール」または「ホーム画面に追加」を選びます。', '「インストール」を確認します。'],
+      genericSteps: ['ブラウザのメニューを開きます。', '「アプリをインストール」または「ホーム画面に追加」を選びます。', '確認して完了します。'],
+      done: '確認しました', close: '閉じる'
+    },
+    en: {
+      title: 'Install QR Studio on your phone',
+      iosDescription: 'On iPhone or iPad, browsers do not show an automatic install prompt. Add QR Studio to your Home Screen with these steps:',
+      androidDescription: 'Install QR Studio as an app for quick access, full-screen use, and better access when the connection is unstable.',
+      genericDescription: 'The automatic install prompt is not available yet. You can still add QR Studio from your browser menu.',
+      iosSteps: ['Open this page in Safari.', 'Tap the Share button in the toolbar.', 'Choose “Add to Home Screen”.', 'Tap “Add” to finish.'],
+      androidSteps: ['Open the browser menu ⋮.', 'Choose “Install app” or “Add to Home screen”.', 'Confirm the installation.'],
+      genericSteps: ['Open the browser menu.', 'Choose “Install app” or “Add to Home screen”.', 'Confirm to finish.'],
+      done: 'Got it', close: 'Close'
+    },
+    ne: {
+      title: 'फोनमा QR Studio स्थापना गर्नुहोस्',
+      iosDescription: 'iPhone वा iPad मा स्वचालित स्थापना सन्देश देखिँदैन। यी चरणबाट गृह स्क्रिनमा थप्नुहोस्:',
+      androidDescription: 'छिटो खोल्न, पूर्ण स्क्रिनमा चलाउन र कमजोर इन्टरनेटमा पनि सजिलो प्रयोगका लागि QR Studio स्थापना गर्नुहोस्।',
+      genericDescription: 'स्वचालित स्थापना सन्देश अहिले उपलब्ध छैन। ब्राउजर मेनुबाट गृह स्क्रिनमा थप्न सकिन्छ।',
+      iosSteps: ['यो पृष्ठ Safari मा खोल्नुहोस्।', 'टुलबारको Share बटन थिच्नुहोस्।', '“Add to Home Screen” छान्नुहोस्।', 'पूरा गर्न “Add” थिच्नुहोस्।'],
+      androidSteps: ['ब्राउजरको तीन-बिन्दु मेनु ⋮ खोल्नुहोस्।', '“Install app” वा “Add to Home screen” छान्नुहोस्।', 'स्थापना पुष्टि गर्नुहोस्।'],
+      genericSteps: ['ब्राउजर मेनु खोल्नुहोस्।', '“Install app” वा “Add to Home screen” छान्नुहोस्।', 'पूरा गर्न पुष्टि गर्नुहोस्।'],
+      done: 'बुझें', close: 'बन्द गर्नुहोस्'
+    }
+  };
+
+  function isMobileDevice() {
+    return window.matchMedia?.('(max-width: 820px)').matches || /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+  }
+
+  function isStandaloneMode() {
+    return window.matchMedia?.('(display-mode: standalone)').matches || window.navigator.standalone === true;
+  }
+
+  function installPlatform() {
+    const ua = navigator.userAgent || '';
+    if (/iPhone|iPad|iPod/i.test(ua)) return 'ios';
+    if (/Android/i.test(ua)) return 'android';
+    return 'generic';
+  }
+
+  function updateInstallButtonVisibility() {
+    const button = $('#installBtn');
+    if (!button) return;
+    const shouldShow = !isStandaloneMode() && (isMobileDevice() || Boolean(state.deferredInstallPrompt));
+    button.classList.toggle('is-hidden', !shouldShow);
+  }
+
+  function renderInstallGuide() {
+    const copy = installGuideCopy[state.language] || installGuideCopy.en;
+    const platform = installPlatform();
+    const descriptionKey = `${platform}Description`;
+    const stepsKey = `${platform}Steps`;
+    $('#installGuideTitle').textContent = copy.title;
+    $('#installGuideDescription').textContent = copy[descriptionKey] || copy.genericDescription;
+    $('#installGuideSteps').innerHTML = (copy[stepsKey] || copy.genericSteps).map((step) => `<li>${escapeHtml(step)}</li>`).join('');
+    $('#installGuideDone').textContent = copy.done;
+    $('#installGuideClose').setAttribute('aria-label', copy.close);
+  }
+
+  function openInstallGuide() {
+    renderInstallGuide();
+    const guide = $('#installGuide');
+    guide.hidden = false;
+    document.body.classList.add('install-guide-open');
+    $('#installGuideClose').focus();
+  }
+
+  function closeInstallGuide() {
+    const guide = $('#installGuide');
+    guide.hidden = true;
+    document.body.classList.remove('install-guide-open');
+    $('#installBtn')?.focus();
+  }
+
+  function renderUsagePolicy() {
+    const copy = usagePolicyCopy[state.language] || usagePolicyCopy.en;
+    $('#usagePolicyModalTitle').textContent = copy.title;
+    $('#usagePolicyModalIntro').textContent = copy.intro;
+    $('#usagePolicySections').innerHTML = copy.sections.map((section) => `
+      <article class="policy-modal__section">
+        <h3>${escapeHtml(section.title)}</h3>
+        <p>${escapeHtml(section.text)}</p>
+      </article>
+    `).join('');
+    $('#usagePolicyAcknowledgement').textContent = copy.acknowledgement;
+    $('#usagePolicyDone').textContent = copy.done;
+    $('#usagePolicyClose').setAttribute('aria-label', copy.close);
+  }
+
+  function openUsagePolicy() {
+    renderUsagePolicy();
+    const modal = $('#usagePolicyModal');
+    modal.hidden = false;
+    document.body.classList.add('policy-modal-open');
+    $('#usagePolicyClose').focus();
+  }
+
+  function closeUsagePolicy() {
+    const modal = $('#usagePolicyModal');
+    modal.hidden = true;
+    document.body.classList.remove('policy-modal-open');
+    $('#openPolicyBtn')?.focus();
+  }
+
   function bindEvents() {
     $('#languageSelect').addEventListener('change', () => {
       state.language = $('#languageSelect').value;
       localStorage.setItem(STORAGE.language, state.language);
       applyLanguage();
       updateLogoStatus();
+      if (!$('#installGuide').hidden) renderInstallGuide();
+      if (!$('#usagePolicyModal').hidden) renderUsagePolicy();
     });
     $('#themeToggle').addEventListener('click', () => {
       state.theme = state.theme === 'dark' ? 'light' : 'dark';
@@ -1489,6 +1677,11 @@
     $('#downloadSvgBtn').addEventListener('click', downloadSvg);
     $('#copyBtn').addEventListener('click', copyQr);
     $('#shareBtn').addEventListener('click', shareQr);
+    $('#openPolicyBtn')?.addEventListener('click', openUsagePolicy);
+    $('#footerPolicyBtn')?.addEventListener('click', openUsagePolicy);
+    $('#usagePolicyClose')?.addEventListener('click', closeUsagePolicy);
+    $('#usagePolicyDone')?.addEventListener('click', closeUsagePolicy);
+    $$('[data-policy-close]').forEach((element) => element.addEventListener('click', closeUsagePolicy));
     $('#clearHistoryBtn').addEventListener('click', () => {
       if (!state.history.length || !window.confirm(t('confirmClear'))) return;
       state.history = []; writeHistory(); renderHistory(); toast(t('historyCleared'));
@@ -1497,20 +1690,35 @@
     window.addEventListener('beforeinstallprompt', (event) => {
       event.preventDefault();
       state.deferredInstallPrompt = event;
-      $('#installBtn').classList.remove('is-hidden');
+      updateInstallButtonVisibility();
       toast(t('installReady'));
     });
     $('#installBtn').addEventListener('click', async () => {
-      if (!state.deferredInstallPrompt) return;
-      state.deferredInstallPrompt.prompt();
-      await state.deferredInstallPrompt.userChoice;
-      state.deferredInstallPrompt = null;
-      $('#installBtn').classList.add('is-hidden');
+      if (state.deferredInstallPrompt) {
+        state.deferredInstallPrompt.prompt();
+        const choice = await state.deferredInstallPrompt.userChoice;
+        if (choice?.outcome === 'accepted') {
+          state.deferredInstallPrompt = null;
+          updateInstallButtonVisibility();
+          return;
+        }
+      }
+      openInstallGuide();
+    });
+    $('#installGuideClose').addEventListener('click', closeInstallGuide);
+    $('#installGuideDone').addEventListener('click', closeInstallGuide);
+    $$('[data-install-close]').forEach((element) => element.addEventListener('click', closeInstallGuide));
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      if (!$('#usagePolicyModal').hidden) closeUsagePolicy();
+      else if (!$('#installGuide').hidden) closeInstallGuide();
     });
     window.addEventListener('appinstalled', () => {
-      $('#installBtn').classList.add('is-hidden');
+      state.deferredInstallPrompt = null;
+      updateInstallButtonVisibility();
       toast(t('installed'));
     });
+    window.matchMedia?.('(display-mode: standalone)').addEventListener?.('change', updateInstallButtonVisibility);
   }
 
   function registerServiceWorker() {
@@ -1527,6 +1735,7 @@
     bindEvents();
     applyLanguage();
     updateLogoStatus();
+    updateInstallButtonVisibility();
     $('#currentYear').textContent = new Date().getFullYear();
     registerServiceWorker();
 

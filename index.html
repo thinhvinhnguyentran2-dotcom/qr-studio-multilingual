@@ -31,9 +31,9 @@
       </a>
 
       <div class="topbar__actions">
-        <button id="installBtn" class="button button--ghost button--compact is-hidden" type="button">
-          <span aria-hidden="true">＋</span>
-          <span data-i18n="installApp">Cài ứng dụng</span>
+        <button id="installBtn" class="button button--ghost button--compact is-hidden" type="button" aria-label="Cài ứng dụng QR Studio">
+          <span class="install-button__icon" aria-hidden="true">⇩</span>
+          <span class="install-label" data-i18n="installApp">Cài ứng dụng</span>
         </button>
 
         <label class="language-select" aria-label="Language">
@@ -322,6 +322,33 @@
       </div>
     </section>
 
+    <section class="usage-policy shell" aria-labelledby="usagePolicyHeading">
+      <div class="usage-policy__header">
+        <div>
+          <div class="eyebrow"><span></span><span data-i18n="policyEyebrow">Sử dụng có trách nhiệm</span></div>
+          <h2 id="usagePolicyHeading" data-i18n="policyTitle">Chính sách sử dụng QR Studio</h2>
+          <p data-i18n="policyIntro">Hãy tạo và chia sẻ mã QR đúng pháp luật, tôn trọng người khác và tự chịu trách nhiệm về nội dung bạn đưa vào mã QR.</p>
+        </div>
+        <button id="openPolicyBtn" class="button button--primary button--compact" type="button">
+          <span aria-hidden="true">§</span><span data-i18n="policyReadFull">Đọc toàn bộ chính sách</span>
+        </button>
+      </div>
+      <div class="usage-policy__grid">
+        <article>
+          <span class="usage-policy__icon" aria-hidden="true">✓</span>
+          <div><h3 data-i18n="policyLawfulTitle">Sử dụng đúng mục đích</h3><p data-i18n="policyLawfulText">Không dùng QR Studio cho lừa đảo, giả mạo, phát tán mã độc, quấy rối hoặc nội dung trái pháp luật.</p></div>
+        </article>
+        <article>
+          <span class="usage-policy__icon" aria-hidden="true">⚖</span>
+          <div><h3 data-i18n="policyResponsibilityTitle">Bạn tự chịu trách nhiệm</h3><p data-i18n="policyResponsibilityText">Bạn chịu trách nhiệm về đường dẫn, dữ liệu, bản quyền, quyền riêng tư và mọi hậu quả phát sinh từ mã QR mình tạo.</p></div>
+        </article>
+        <article>
+          <span class="usage-policy__icon" aria-hidden="true">⌕</span>
+          <div><h3 data-i18n="policyCheckTitle">Kiểm tra trước khi phát hành</h3><p data-i18n="policyCheckText">Luôn thử quét, kiểm tra đường dẫn, độ tương phản và nội dung trước khi in hoặc chia sẻ rộng rãi.</p></div>
+        </article>
+      </div>
+    </section>
+
     <section class="features shell">
       <article><span>⚡</span><h3 data-i18n="featureFastTitle">Tạo tức thì</h3><p data-i18n="featureFastText">Xem trước cập nhật ngay khi nhập.</p></article>
       <article><span>◉</span><h3 data-i18n="featureResponsiveTitle">Tối ưu điện thoại</h3><p data-i18n="featureResponsiveText">Giao diện full responsive trên mọi màn hình.</p></article>
@@ -336,9 +363,37 @@
         <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
         <span><strong>QR Studio</strong><small data-i18n="footerTagline">Tạo QR miễn phí cho mọi người</small></span>
       </div>
-      <p>© <span id="currentYear"></span> QR Studio. <span data-i18n="footerOpenSource">Mã nguồn mở, triển khai trên GitHub Pages.</span></p>
+      <div class="footer__legal">
+        <button id="footerPolicyBtn" class="footer__policy-link" type="button" data-i18n="policyFooterLink">Chính sách sử dụng</button>
+        <p>© <span id="currentYear"></span> QR Studio. <span data-i18n="footerOpenSource">Mã nguồn mở, triển khai trên GitHub Pages.</span></p>
+      </div>
     </div>
   </footer>
+
+  <div id="usagePolicyModal" class="policy-modal" hidden>
+    <div class="policy-modal__backdrop" data-policy-close></div>
+    <section class="policy-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="usagePolicyModalTitle">
+      <button id="usagePolicyClose" class="policy-modal__close" type="button" aria-label="Đóng">×</button>
+      <div class="policy-modal__icon" aria-hidden="true">⚖</div>
+      <h2 id="usagePolicyModalTitle">Chính sách sử dụng QR Studio</h2>
+      <p id="usagePolicyModalIntro" class="policy-modal__intro"></p>
+      <div id="usagePolicySections" class="policy-modal__sections"></div>
+      <div id="usagePolicyAcknowledgement" class="policy-modal__acknowledgement"></div>
+      <button id="usagePolicyDone" class="button button--primary button--full" type="button">Tôi đã hiểu</button>
+    </section>
+  </div>
+
+  <div id="installGuide" class="install-guide" hidden>
+    <div class="install-guide__backdrop" data-install-close></div>
+    <section class="install-guide__dialog" role="dialog" aria-modal="true" aria-labelledby="installGuideTitle">
+      <button id="installGuideClose" class="install-guide__close" type="button" aria-label="Đóng">×</button>
+      <div class="install-guide__icon" aria-hidden="true">▣</div>
+      <h2 id="installGuideTitle">Cài QR Studio</h2>
+      <p id="installGuideDescription"></p>
+      <ol id="installGuideSteps" class="install-guide__steps"></ol>
+      <button id="installGuideDone" class="button button--primary button--full" type="button">Đã hiểu</button>
+    </section>
+  </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 

@@ -14,7 +14,8 @@ QR Studio là ứng dụng web tĩnh, chạy trực tiếp trên GitHub Pages, k
 - Tải PNG hoặc SVG, sao chép và chia sẻ trên điện thoại.
 - Lưu tối đa 12 QR trong LocalStorage của thiết bị.
 - Giao diện sáng/tối, full responsive cho điện thoại, máy tính bảng và máy tính.
-- PWA: có thể thêm vào màn hình chính và dùng lại sau lần truy cập đầu tiên.
+- PWA: nút **Cài ứng dụng** luôn hiển thị trên điện thoại khi chưa cài; Android mở hộp cài trực tiếp, iPhone/iPad hiển thị hướng dẫn “Thêm vào Màn hình chính”.
+- Có mục **Chính sách sử dụng** bằng 4 ngôn ngữ: yêu cầu sử dụng hợp pháp, cấm lừa đảo/phát tán mã độc, quy định người dùng tự chịu trách nhiệm và phải kiểm tra QR trước khi phát hành.
 - Tự động triển khai bằng GitHub Actions.
 
 ## Chạy thử trên Windows bằng VS Code
@@ -88,6 +89,7 @@ qr-studio-multilingual/
 ├── .nojekyll
 ├── LICENSE
 ├── THIRD_PARTY_NOTICES.md
+├── USAGE_POLICY.md
 └── README.md
 ```
 
