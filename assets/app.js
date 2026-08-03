@@ -25,7 +25,7 @@
       heroTitle: 'Tạo mã QR đẹp trong vài giây', heroDescription: 'Chọn nội dung, tùy chỉnh thiết kế và tải xuống. Mọi dữ liệu được xử lý trực tiếp trên thiết bị của bạn.',
       trustFree: 'Miễn phí', trustNoAccount: 'Không tài khoản', trustPrivate: 'Không gửi dữ liệu', chooseType: 'Chọn loại mã QR', chooseTypeHint: 'Bạn muốn chia sẻ nội dung gì?',
       enterContent: 'Nhập nội dung', enterContentHint: 'Điền thông tin sẽ được lưu trong mã QR.', customize: 'Tùy chỉnh thiết kế', customizeHint: 'Màu sắc, kích thước và logo.',
-      resetStyle: 'Đặt lại', presetLibrary: 'Thư viện style QR', presetLibraryHint: 'Chọn nhanh 1 trong 50 preset theo ngành nghề.', presetCategory: 'Nhóm preset', applyPreset: 'Áp dụng preset', presetApplied: 'Đã áp dụng preset: {name}', categoryAll: 'Tất cả', categoryBusiness: 'Doanh nghiệp', categoryFood: 'Ẩm thực', categoryTech: 'Công nghệ', categoryBeauty: 'Thời trang & làm đẹp', categoryHealth: 'Y tế', categoryEducation: 'Giáo dục', categoryTravel: 'Du lịch', categoryEvents: 'Sự kiện', categoryRetail: 'Bán lẻ', categoryCreative: 'Sáng tạo', foregroundColor: 'Màu mã QR', backgroundColor: 'Màu nền', qrSize: 'Kích thước', errorCorrection: 'Khả năng sửa lỗi', moduleStyle: 'Kiểu điểm',
+      resetStyle: 'Đặt lại', presetLibrary: 'Thư viện style QR', presetLibraryHint: 'Chọn nhanh 1 trong 50 preset theo ngành nghề.', presetCategory: 'Nhóm preset', applyPreset: 'Áp dụng preset', presetApplied: 'Đã áp dụng preset: {name}', categoryAll: 'Tất cả', categoryBusiness: 'Doanh nghiệp', categoryFood: 'Ẩm thực', categoryTech: 'Công nghệ', categoryBeauty: 'Thời trang & làm đẹp', categoryHealth: 'Y tế', categoryEducation: 'Giáo dục', categoryTravel: 'Du lịch', categoryEvents: 'Sự kiện', categoryRetail: 'Bán lẻ', categoryCreative: 'Sáng tạo', foregroundColor: 'Màu mã QR', backgroundColor: 'Màu nền', qrSize: 'Kích thước', errorCorrection: 'Khả năng sửa lỗi', moduleStyle: 'Kiểu điểm', labelFrames: 'Tạo label và khung QR', labelFramesHint: 'Đặt mã QR vào nhãn đẹp để in, dán sản phẩm hoặc đăng mạng xã hội.', enableLabel: 'Bật label cho mã QR', frameStyle: 'Mẫu khung', labelTitleField: 'Tiêu đề label', labelSubtitleField: 'Mô tả ngắn', labelCtaField: 'Dòng kêu gọi quét', frameAccent: 'Màu nhấn', frameBackground: 'Màu label', frameTextColor: 'Màu chữ', defaultLabelTitle: 'QUÉT MÃ QR', defaultLabelSubtitle: 'Hướng camera vào mã để mở nội dung', defaultLabelCta: 'QUÉT TẠI ĐÂY',
       styleSquare: 'Vuông', styleRounded: 'Bo tròn', styleDots: 'Chấm tròn', addLogo: 'Thêm logo ở giữa', chooseImage: 'Chọn ảnh', noImageSelected: 'Chưa chọn ảnh',
       logoHint: 'Nên dùng mức sửa lỗi H và logo nhỏ hơn 20% mã QR.', livePreview: 'Xem trước trực tiếp', previewEmptyTitle: 'Mã QR sẽ hiện ở đây', previewEmptyHint: 'Nhập nội dung để bắt đầu',
       generateSave: 'Tạo và lưu vào lịch sử', copy: 'Sao chép', share: 'Chia sẻ', privacyTitle: 'Dữ liệu riêng tư', privacyText: 'Mọi xử lý diễn ra trên thiết bị. Không có dữ liệu nào được tải lên máy chủ.',
@@ -53,7 +53,7 @@
       heroTitle: '美しいQRコードを数秒で作成', heroDescription: '内容を選び、デザインを調整してダウンロード。すべてのデータは端末上で処理されます。',
       trustFree: '完全無料', trustNoAccount: 'アカウント不要', trustPrivate: 'データ送信なし', chooseType: 'QRコードの種類を選択', chooseTypeHint: '何を共有しますか？',
       enterContent: '内容を入力', enterContentHint: 'QRコードに保存する情報を入力してください。', customize: 'デザインを調整', customizeHint: '色、サイズ、ロゴを設定できます。',
-      resetStyle: 'リセット', presetLibrary: 'QRスタイルライブラリ', presetLibraryHint: '業種別の50種類のプリセットからすばやく選択できます。', presetCategory: 'プリセットカテゴリ', applyPreset: 'プリセットを適用', presetApplied: 'プリセットを適用しました: {name}', categoryAll: 'すべて', categoryBusiness: 'ビジネス', categoryFood: '飲食', categoryTech: 'テクノロジー', categoryBeauty: 'ファッション・美容', categoryHealth: '医療', categoryEducation: '教育', categoryTravel: '旅行', categoryEvents: 'イベント', categoryRetail: '小売', categoryCreative: 'クリエイティブ', foregroundColor: 'QRの色', backgroundColor: '背景色', qrSize: 'サイズ', errorCorrection: '誤り訂正レベル', moduleStyle: 'ドット形式',
+      resetStyle: 'リセット', presetLibrary: 'QRスタイルライブラリ', presetLibraryHint: '業種別の50種類のプリセットからすばやく選択できます。', presetCategory: 'プリセットカテゴリ', applyPreset: 'プリセットを適用', presetApplied: 'プリセットを適用しました: {name}', categoryAll: 'すべて', categoryBusiness: 'ビジネス', categoryFood: '飲食', categoryTech: 'テクノロジー', categoryBeauty: 'ファッション・美容', categoryHealth: '医療', categoryEducation: '教育', categoryTravel: '旅行', categoryEvents: 'イベント', categoryRetail: '小売', categoryCreative: 'クリエイティブ', foregroundColor: 'QRの色', backgroundColor: '背景色', qrSize: 'サイズ', errorCorrection: '誤り訂正レベル', moduleStyle: 'ドット形式', labelFrames: 'QRラベル・フレーム', labelFramesHint: '印刷、商品ラベル、SNS投稿向けの美しいフレームにQRコードを配置します。', enableLabel: 'QRラベルを有効にする', frameStyle: 'フレームデザイン', labelTitleField: 'ラベル見出し', labelSubtitleField: '短い説明', labelCtaField: 'スキャン案内', frameAccent: 'アクセント色', frameBackground: 'ラベル背景色', frameTextColor: '文字色', defaultLabelTitle: 'QRコードをスキャン', defaultLabelSubtitle: 'カメラを向けて内容を開いてください', defaultLabelCta: 'ここをスキャン',
       styleSquare: '四角', styleRounded: '角丸', styleDots: '丸', addLogo: '中央にロゴを追加', chooseImage: '画像を選択', noImageSelected: '画像未選択',
       logoHint: '誤り訂正H、ロゴはQR全体の20%未満を推奨します。', livePreview: 'ライブプレビュー', previewEmptyTitle: 'QRコードがここに表示されます', previewEmptyHint: '内容を入力して開始',
       generateSave: '作成して履歴に保存', copy: 'コピー', share: '共有', privacyTitle: 'プライバシー保護', privacyText: '処理はすべて端末上で行われ、データはサーバーへ送信されません。',
@@ -81,7 +81,7 @@
       heroTitle: 'Create beautiful QR codes in seconds', heroDescription: 'Choose your content, customize the design, and download. All data is processed directly on your device.',
       trustFree: 'Free forever', trustNoAccount: 'No account', trustPrivate: 'No data upload', chooseType: 'Choose a QR code type', chooseTypeHint: 'What would you like to share?',
       enterContent: 'Enter your content', enterContentHint: 'Fill in the information that will be stored in the QR code.', customize: 'Customize the design', customizeHint: 'Colors, size, and logo.',
-      resetStyle: 'Reset', presetLibrary: 'QR style library', presetLibraryHint: 'Quickly choose from 50 presets grouped by industry.', presetCategory: 'Preset category', applyPreset: 'Apply preset', presetApplied: 'Preset applied: {name}', categoryAll: 'All', categoryBusiness: 'Business', categoryFood: 'Food & Drink', categoryTech: 'Technology', categoryBeauty: 'Fashion & Beauty', categoryHealth: 'Healthcare', categoryEducation: 'Education', categoryTravel: 'Travel', categoryEvents: 'Events', categoryRetail: 'Retail', categoryCreative: 'Creative', foregroundColor: 'QR color', backgroundColor: 'Background color', qrSize: 'Size', errorCorrection: 'Error correction', moduleStyle: 'Module style',
+      resetStyle: 'Reset', presetLibrary: 'QR style library', presetLibraryHint: 'Quickly choose from 50 presets grouped by industry.', presetCategory: 'Preset category', applyPreset: 'Apply preset', presetApplied: 'Preset applied: {name}', categoryAll: 'All', categoryBusiness: 'Business', categoryFood: 'Food & Drink', categoryTech: 'Technology', categoryBeauty: 'Fashion & Beauty', categoryHealth: 'Healthcare', categoryEducation: 'Education', categoryTravel: 'Travel', categoryEvents: 'Events', categoryRetail: 'Retail', categoryCreative: 'Creative', foregroundColor: 'QR color', backgroundColor: 'Background color', qrSize: 'Size', errorCorrection: 'Error correction', moduleStyle: 'Module style', labelFrames: 'QR label and frame', labelFramesHint: 'Place the QR code inside a polished label for printing, packaging, or social posts.', enableLabel: 'Enable QR label', frameStyle: 'Frame design', labelTitleField: 'Label title', labelSubtitleField: 'Short description', labelCtaField: 'Scan call-to-action', frameAccent: 'Accent color', frameBackground: 'Label background', frameTextColor: 'Text color', defaultLabelTitle: 'SCAN QR CODE', defaultLabelSubtitle: 'Point your camera at the code to open', defaultLabelCta: 'SCAN HERE',
       styleSquare: 'Square', styleRounded: 'Rounded', styleDots: 'Dots', addLogo: 'Add a center logo', chooseImage: 'Choose image', noImageSelected: 'No image selected',
       logoHint: 'Use error correction H and keep the logo under 20% of the QR code.', livePreview: 'Live preview', previewEmptyTitle: 'Your QR code will appear here', previewEmptyHint: 'Enter content to begin',
       generateSave: 'Generate and save to history', copy: 'Copy', share: 'Share', privacyTitle: 'Private by design', privacyText: 'Everything is processed on your device. No data is uploaded to a server.',
@@ -109,7 +109,7 @@
       heroTitle: 'केही सेकेन्डमै सुन्दर QR कोड बनाउनुहोस्', heroDescription: 'सामग्री छान्नुहोस्, डिजाइन मिलाउनुहोस् र डाउनलोड गर्नुहोस्। सबै डेटा तपाईंको उपकरणमै प्रशोधन हुन्छ।',
       trustFree: 'सधैं निःशुल्क', trustNoAccount: 'खाता आवश्यक छैन', trustPrivate: 'डेटा अपलोड हुँदैन', chooseType: 'QR कोडको प्रकार छान्नुहोस्', chooseTypeHint: 'तपाईं के साझा गर्न चाहनुहुन्छ?',
       enterContent: 'सामग्री लेख्नुहोस्', enterContentHint: 'QR कोडमा राखिने जानकारी भर्नुहोस्।', customize: 'डिजाइन मिलाउनुहोस्', customizeHint: 'रङ, आकार र लोगो।',
-      resetStyle: 'रिसेट', presetLibrary: 'QR शैली पुस्तकालय', presetLibraryHint: 'उद्योग अनुसार वर्गीकृत ५० प्रिसेटबाट छिटो छान्नुहोस्।', presetCategory: 'प्रिसेट समूह', applyPreset: 'प्रिसेट लागू गर्नुहोस्', presetApplied: 'प्रिसेट लागू भयो: {name}', categoryAll: 'सबै', categoryBusiness: 'व्यवसाय', categoryFood: 'खाना र पेय', categoryTech: 'प्रविधि', categoryBeauty: 'फेसन र सौन्दर्य', categoryHealth: 'स्वास्थ्य', categoryEducation: 'शिक्षा', categoryTravel: 'यात्रा', categoryEvents: 'कार्यक्रम', categoryRetail: 'रिटेल', categoryCreative: 'सिर्जनात्मक', foregroundColor: 'QR को रङ', backgroundColor: 'पृष्ठभूमिको रङ', qrSize: 'आकार', errorCorrection: 'त्रुटि सुधार', moduleStyle: 'बिन्दु शैली',
+      resetStyle: 'रिसेट', presetLibrary: 'QR शैली पुस्तकालय', presetLibraryHint: 'उद्योग अनुसार वर्गीकृत ५० प्रिसेटबाट छिटो छान्नुहोस्।', presetCategory: 'प्रिसेट समूह', applyPreset: 'प्रिसेट लागू गर्नुहोस्', presetApplied: 'प्रिसेट लागू भयो: {name}', categoryAll: 'सबै', categoryBusiness: 'व्यवसाय', categoryFood: 'खाना र पेय', categoryTech: 'प्रविधि', categoryBeauty: 'फेसन र सौन्दर्य', categoryHealth: 'स्वास्थ्य', categoryEducation: 'शिक्षा', categoryTravel: 'यात्रा', categoryEvents: 'कार्यक्रम', categoryRetail: 'रिटेल', categoryCreative: 'सिर्जनात्मक', foregroundColor: 'QR को रङ', backgroundColor: 'पृष्ठभूमिको रङ', qrSize: 'आकार', errorCorrection: 'त्रुटि सुधार', moduleStyle: 'बिन्दु शैली', labelFrames: 'QR लेबल र फ्रेम', labelFramesHint: 'प्रिन्ट, उत्पादन लेबल वा सामाजिक सञ्जालका लागि QR कोडलाई सुन्दर फ्रेममा राख्नुहोस्।', enableLabel: 'QR लेबल सक्रिय गर्नुहोस्', frameStyle: 'फ्रेम डिजाइन', labelTitleField: 'लेबल शीर्षक', labelSubtitleField: 'छोटो विवरण', labelCtaField: 'स्क्यान सन्देश', frameAccent: 'मुख्य रङ', frameBackground: 'लेबल पृष्ठभूमि', frameTextColor: 'अक्षरको रङ', defaultLabelTitle: 'QR कोड स्क्यान गर्नुहोस्', defaultLabelSubtitle: 'खोल्नका लागि क्यामेरा कोडतर्फ राख्नुहोस्', defaultLabelCta: 'यहाँ स्क्यान गर्नुहोस्',
       styleSquare: 'चौकोर', styleRounded: 'गोलो किनारा', styleDots: 'गोल बिन्दु', addLogo: 'बीचमा लोगो थप्नुहोस्', chooseImage: 'तस्बिर छान्नुहोस्', noImageSelected: 'तस्बिर छानिएको छैन',
       logoHint: 'त्रुटि सुधार H प्रयोग गर्नुहोस् र लोगो QR को 20% भन्दा सानो राख्नुहोस्।', livePreview: 'प्रत्यक्ष पूर्वावलोकन', previewEmptyTitle: 'QR कोड यहाँ देखिनेछ', previewEmptyHint: 'सुरु गर्न सामग्री लेख्नुहोस्',
       generateSave: 'बनाउनुहोस् र इतिहासमा राख्नुहोस्', copy: 'प्रतिलिपि', share: 'साझा', privacyTitle: 'निजी डेटा', privacyText: 'सबै काम उपकरणमै हुन्छ। कुनै डेटा सर्भरमा पठाइँदैन।',
@@ -161,9 +161,31 @@
     background: '#FFFFFF',
     size: 360,
     errorCorrection: 'M',
-    moduleStyle: 'square'
+    moduleStyle: 'square',
+    labelEnabled: false,
+    labelFrame: 'minimal',
+    labelTitle: '',
+    labelSubtitle: '',
+    labelCta: '',
+    labelAccent: '#6757F5',
+    labelBackground: '#FFFFFF',
+    labelTextColor: '#17152F'
   };
 
+  const frameTemplates = [
+    { id: 'minimal', icon: '▦', names: { vi: 'Tối giản', ja: 'ミニマル', en: 'Minimal', ne: 'मिनिमल' } },
+    { id: 'rounded', icon: '▢', names: { vi: 'Bo tròn', ja: '角丸', en: 'Rounded', ne: 'गोलो' } },
+    { id: 'ticket', icon: '🎟', names: { vi: 'Vé sự kiện', ja: 'チケット', en: 'Ticket', ne: 'टिकट' } },
+    { id: 'ribbon', icon: '◆', names: { vi: 'Ruy băng', ja: 'リボン', en: 'Ribbon', ne: 'रिबन' } },
+    { id: 'business', icon: '▤', names: { vi: 'Doanh nghiệp', ja: 'ビジネス', en: 'Business', ne: 'व्यवसाय' } },
+    { id: 'restaurant', icon: '☕', names: { vi: 'Nhà hàng', ja: 'レストラン', en: 'Restaurant', ne: 'रेस्टुरेन्ट' } },
+    { id: 'wifi', icon: '⌁', names: { vi: 'Wi-Fi', ja: 'Wi-Fi', en: 'Wi-Fi', ne: 'Wi-Fi' } },
+    { id: 'event', icon: '✦', names: { vi: 'Lễ hội', ja: 'イベント', en: 'Event', ne: 'कार्यक्रम' } },
+    { id: 'product', icon: '🏷', names: { vi: 'Nhãn sản phẩm', ja: '商品タグ', en: 'Product Tag', ne: 'उत्पादन ट्याग' } },
+    { id: 'luxury', icon: '◇', names: { vi: 'Cao cấp', ja: 'ラグジュアリー', en: 'Luxury', ne: 'लक्जरी' } },
+    { id: 'sakura', icon: '❀', names: { vi: 'Sakura', ja: 'さくら', en: 'Sakura', ne: 'साकुरा' } },
+    { id: 'neon', icon: '⚡', names: { vi: 'Neon', ja: 'ネオン', en: 'Neon', ne: 'नियोन' } }
+  ];
 
   const presetCategories = [
     { id: 'all', label: 'categoryAll' },
@@ -287,6 +309,8 @@
     renderFields();
     renderHistory();
     renderPresetLibrary();
+    renderFrameLibrary();
+    updateLabelControls();
     updatePayloadCount();
     updatePreview();
   }
@@ -580,6 +604,42 @@
     toast(t('presetApplied', { name: preset.name }));
   }
 
+  function frameName(frame) {
+    return frame?.names?.[state.language] || frame?.names?.en || frame?.id || '';
+  }
+
+  function labelTextValue(key, fallbackKey) {
+    const value = String(state.settings[key] || '').trim();
+    return value || t(fallbackKey);
+  }
+
+  function renderFrameLibrary() {
+    const grid = $('#frameGrid');
+    if (!grid) return;
+    grid.innerHTML = frameTemplates.map((frame) => `
+      <button class="frame-card ${state.settings.labelFrame === frame.id ? 'is-active' : ''}" type="button" data-frame-id="${escapeHtml(frame.id)}" aria-label="${escapeHtml(frameName(frame))}">
+        <span class="frame-card__preview" style="--frame-accent:${escapeHtml(state.settings.labelAccent)};--frame-bg:${escapeHtml(state.settings.labelBackground)}"><span></span>${escapeHtml(frame.icon)}</span>
+        <span class="frame-card__name">${escapeHtml(frameName(frame))}</span>
+      </button>
+    `).join('');
+    $$('[data-frame-id]', grid).forEach((button) => button.addEventListener('click', () => {
+      state.settings.labelFrame = button.dataset.frameId;
+      saveWorkingState();
+      renderFrameLibrary();
+      updatePreview();
+    }));
+  }
+
+  function updateLabelControls() {
+    const enabled = Boolean(state.settings.labelEnabled);
+    $('#labelEnabled').checked = enabled;
+    $('#labelControls').classList.toggle('is-disabled', !enabled);
+    $('#qrStage').classList.toggle('has-label', enabled);
+    $('#labelTitle').placeholder = t('defaultLabelTitle');
+    $('#labelSubtitle').placeholder = t('defaultLabelSubtitle');
+    $('#labelCta').placeholder = t('defaultLabelCta');
+  }
+
   function clearCanvas() {
     const canvas = $('#qrCanvas');
     const context = canvas.getContext('2d');
@@ -655,16 +715,15 @@
     ctx.closePath();
   }
 
-  async function drawQrToCanvas(qr, token) {
-    const canvas = $('#qrCanvas');
-    const size = Number(state.settings.size);
+  async function renderQrCore(qr, token, size) {
+    const core = document.createElement('canvas');
     const count = qr.getModuleCount();
     const margin = 4;
     const total = count + margin * 2;
     const unit = size / total;
-    canvas.width = size;
-    canvas.height = size;
-    const ctx = canvas.getContext('2d');
+    core.width = size;
+    core.height = size;
+    const ctx = core.getContext('2d');
     ctx.imageSmoothingEnabled = true;
     ctx.fillStyle = state.settings.background;
     ctx.fillRect(0, 0, size, size);
@@ -676,17 +735,14 @@
         const x = (col + margin) * unit;
         const y = (row + margin) * unit;
         const finder = isFinderModule(row, col, count);
-        if (finder) {
-          ctx.fillRect(Math.floor(x), Math.floor(y), Math.ceil(unit + .25), Math.ceil(unit + .25));
-        } else {
-          drawModule(ctx, state.settings.moduleStyle, x, y, unit);
-        }
+        if (finder) ctx.fillRect(Math.floor(x), Math.floor(y), Math.ceil(unit + .25), Math.ceil(unit + .25));
+        else drawModule(ctx, state.settings.moduleStyle, x, y, unit);
       }
     }
 
     if (state.logoDataUrl) {
       const image = await loadImage(state.logoDataUrl);
-      if (token !== state.renderToken) return;
+      if (token !== state.renderToken) return core;
       const logoSize = size * .17;
       const safeSize = logoSize * 1.28;
       const sx = (size - safeSize) / 2;
@@ -705,6 +761,186 @@
       ctx.drawImage(image, x + (logoSize - width) / 2, y + (logoSize - height) / 2, width, height);
       ctx.restore();
     }
+    return core;
+  }
+
+  function drawFittedText(ctx, text, centerX, y, maxWidth, startSize, minSize, weight = 800) {
+    let size = startSize;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    while (size > minSize) {
+      ctx.font = `${weight} ${size}px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`;
+      if (ctx.measureText(text).width <= maxWidth) break;
+      size -= 1;
+    }
+    let output = text;
+    while (ctx.measureText(output).width > maxWidth && output.length > 4) output = `${output.slice(0, -2)}…`;
+    ctx.fillText(output, centerX, y);
+  }
+
+  function drawWifiSymbol(ctx, x, y, radius, color) {
+    ctx.save();
+    ctx.strokeStyle = color;
+    ctx.lineWidth = Math.max(2, radius * .11);
+    ctx.lineCap = 'round';
+    [1, .66, .34].forEach((ratio) => {
+      ctx.beginPath();
+      ctx.arc(x, y, radius * ratio, Math.PI * 1.16, Math.PI * 1.84);
+      ctx.stroke();
+    });
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.arc(x, y + radius * .08, radius * .08, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawLabelDecorations(ctx, frame, w, h, accent, bg, textColor) {
+    const s = w / 360;
+    ctx.save();
+    switch (frame) {
+      case 'rounded':
+        ctx.strokeStyle = accent;
+        ctx.lineWidth = 3 * s;
+        roundedRect(ctx, 11*s, 11*s, w-22*s, h-22*s, 25*s); ctx.stroke();
+        ctx.globalAlpha = .35;
+        ctx.lineWidth = 1.5*s;
+        roundedRect(ctx, 19*s, 19*s, w-38*s, h-38*s, 20*s); ctx.stroke();
+        break;
+      case 'ticket':
+        ctx.strokeStyle = accent; ctx.lineWidth = 3*s;
+        roundedRect(ctx, 8*s, 8*s, w-16*s, h-16*s, 20*s); ctx.stroke();
+        ctx.setLineDash([7*s, 6*s]); ctx.globalAlpha = .55;
+        ctx.beginPath(); ctx.moveTo(25*s, 90*s); ctx.lineTo(w-25*s, 90*s); ctx.stroke();
+        ctx.setLineDash([]); ctx.globalCompositeOperation = 'destination-out';
+        [0,w].forEach((x) => { ctx.beginPath(); ctx.arc(x, 90*s, 14*s, 0, Math.PI*2); ctx.fill(); });
+        break;
+      case 'ribbon':
+        ctx.fillStyle = accent;
+        roundedRect(ctx, 45*s, 0, w-90*s, 50*s, 0); ctx.fill();
+        ctx.beginPath(); ctx.moveTo(45*s, 50*s); ctx.lineTo(65*s, 63*s); ctx.lineTo(82*s, 50*s); ctx.closePath(); ctx.fill();
+        ctx.beginPath(); ctx.moveTo(w-45*s, 50*s); ctx.lineTo(w-65*s, 63*s); ctx.lineTo(w-82*s, 50*s); ctx.closePath(); ctx.fill();
+        break;
+      case 'business':
+        ctx.fillStyle = accent; roundedRect(ctx, 0, 0, 18*s, h, 0); ctx.fill();
+        ctx.globalAlpha = .12; ctx.fillRect(18*s, 0, 38*s, h); ctx.globalAlpha = 1;
+        break;
+      case 'restaurant':
+        ctx.fillStyle = accent;
+        ctx.beginPath(); ctx.arc(35*s, 38*s, 18*s, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = bg; ctx.font = `900 ${19*s}px system-ui`; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('☕',35*s,39*s);
+        ctx.strokeStyle = accent; ctx.globalAlpha=.35; ctx.lineWidth=2*s;
+        ctx.beginPath(); ctx.arc(w-30*s, h-30*s, 18*s, 0, Math.PI*2); ctx.stroke();
+        break;
+      case 'wifi':
+        ctx.fillStyle = accent; roundedRect(ctx, w/2-35*s, 9*s, 70*s, 55*s, 25*s); ctx.fill();
+        drawWifiSymbol(ctx, w/2, 48*s, 23*s, bg);
+        break;
+      case 'event':
+        for (let i=0;i<18;i+=1) {
+          const x = (18 + (i*47)%325)*s;
+          const y = (14 + (i*71)%450)*s;
+          ctx.fillStyle = i%3===0 ? accent : textColor;
+          ctx.globalAlpha = i%3===0 ? .8 : .18;
+          ctx.save(); ctx.translate(x,y); ctx.rotate(i*.7); ctx.fillRect(-2*s,-5*s,4*s,10*s); ctx.restore();
+        }
+        break;
+      case 'product':
+        ctx.strokeStyle=accent; ctx.lineWidth=3*s;
+        ctx.beginPath(); ctx.moveTo(20*s,0); ctx.lineTo(w-20*s,0); ctx.lineTo(w,20*s); ctx.lineTo(w,h); ctx.lineTo(0,h); ctx.lineTo(0,20*s); ctx.closePath(); ctx.stroke();
+        ctx.beginPath(); ctx.arc(w/2, 24*s, 7*s, 0, Math.PI*2); ctx.stroke();
+        break;
+      case 'luxury':
+        ctx.strokeStyle=accent; ctx.lineWidth=2*s;
+        roundedRect(ctx, 9*s,9*s,w-18*s,h-18*s,18*s);ctx.stroke();
+        ctx.globalAlpha=.45; roundedRect(ctx,16*s,16*s,w-32*s,h-32*s,14*s);ctx.stroke();
+        ctx.globalAlpha=1; ctx.fillStyle=accent;
+        [[24,24],[336,24],[24,466],[336,466]].forEach(([x,y])=>{ctx.save();ctx.translate(x*s,y*s);ctx.rotate(Math.PI/4);ctx.fillRect(-4*s,-4*s,8*s,8*s);ctx.restore();});
+        break;
+      case 'sakura':
+        ctx.fillStyle=accent; ctx.globalAlpha=.23;
+        [[28,28],[52,16],[333,35],[318,62],[28,447],[333,455]].forEach(([x,y],idx)=>{
+          for(let p=0;p<5;p+=1){ctx.save();ctx.translate(x*s,y*s);ctx.rotate((Math.PI*2/5)*p+idx*.2);ctx.beginPath();ctx.ellipse(0,-7*s,4*s,8*s,0,0,Math.PI*2);ctx.fill();ctx.restore();}
+        });
+        break;
+      case 'neon':
+        ctx.shadowColor=accent; ctx.shadowBlur=18*s; ctx.strokeStyle=accent; ctx.lineWidth=3*s;
+        roundedRect(ctx,10*s,10*s,w-20*s,h-20*s,24*s);ctx.stroke();
+        ctx.shadowBlur=8*s; ctx.globalAlpha=.5; roundedRect(ctx,18*s,18*s,w-36*s,h-36*s,18*s);ctx.stroke();
+        break;
+      default:
+        ctx.fillStyle = accent; roundedRect(ctx, 0, 0, w, 10*s, 0); ctx.fill();
+        ctx.globalAlpha=.12; ctx.fillRect(0,10*s,w,8*s);
+    }
+    ctx.restore();
+  }
+
+  function composeLabelCanvas(canvas, qrCore) {
+    const w = Number(state.settings.size);
+    const h = Math.round(w * 1.36);
+    const s = w / 360;
+    const frame = state.settings.labelFrame;
+    const accent = state.settings.labelAccent;
+    const textColor = frame === 'neon' && state.settings.labelTextColor === '#17152F' ? '#FFFFFF' : state.settings.labelTextColor;
+    const bg = frame === 'neon' && state.settings.labelBackground === '#FFFFFF' ? '#10132B' : state.settings.labelBackground;
+    canvas.width = w;
+    canvas.height = h;
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0,0,w,h);
+    ctx.save();
+    ctx.shadowColor = 'rgba(20, 20, 50, .16)';
+    ctx.shadowBlur = 16*s;
+    ctx.shadowOffsetY = 5*s;
+    ctx.fillStyle = bg;
+    roundedRect(ctx, 6*s, 6*s, w-12*s, h-12*s, 26*s); ctx.fill();
+    ctx.restore();
+    drawLabelDecorations(ctx, frame, w, h, accent, bg, textColor);
+
+    const headingColor = frame === 'ribbon' || frame === 'neon' ? '#FFFFFF' : textColor;
+    ctx.fillStyle = headingColor;
+    drawFittedText(ctx, labelTextValue('labelTitle','defaultLabelTitle'), w/2, 44*s, w-92*s, 26*s, 14*s, 900);
+    ctx.fillStyle = textColor;
+    ctx.globalAlpha = .72;
+    drawFittedText(ctx, labelTextValue('labelSubtitle','defaultLabelSubtitle'), w/2, 73*s, w-72*s, 13*s, 9*s, 600);
+    ctx.globalAlpha = 1;
+
+    const qrSide = 252*s;
+    const qrX = (w-qrSide)/2;
+    const qrY = 99*s;
+    ctx.save();
+    ctx.shadowColor='rgba(20,20,50,.15)'; ctx.shadowBlur=14*s; ctx.shadowOffsetY=4*s;
+    ctx.fillStyle=state.settings.background;
+    roundedRect(ctx, qrX-9*s, qrY-9*s, qrSide+18*s, qrSide+18*s, 19*s); ctx.fill();
+    ctx.restore();
+    ctx.drawImage(qrCore, qrX, qrY, qrSide, qrSide);
+
+    const ctaY = 390*s;
+    ctx.fillStyle = accent;
+    roundedRect(ctx, 48*s, ctaY, w-96*s, 45*s, 22*s); ctx.fill();
+    ctx.fillStyle = frame === 'neon' ? '#FFFFFF' : '#FFFFFF';
+    drawFittedText(ctx, labelTextValue('labelCta','defaultLabelCta'), w/2, ctaY+23*s, w-120*s, 15*s, 10*s, 900);
+
+    ctx.fillStyle=textColor; ctx.globalAlpha=.55;
+    drawFittedText(ctx, 'QR Studio • Free & Private', w/2, 459*s, w-70*s, 10*s, 8*s, 700);
+    ctx.globalAlpha=1;
+  }
+
+  async function drawQrToCanvas(qr, token) {
+    const canvas = $('#qrCanvas');
+    const size = Number(state.settings.size);
+    const core = await renderQrCore(qr, token, size);
+    if (token !== state.renderToken) return;
+    if (!state.settings.labelEnabled) {
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, size, size);
+      ctx.drawImage(core, 0, 0);
+      $('#qrStage').classList.remove('has-label');
+      return;
+    }
+    $('#qrStage').classList.add('has-label');
+    composeLabelCanvas(canvas, core);
   }
 
   function roundedRect(ctx, x, y, width, height, radius) {
@@ -741,14 +977,10 @@
     }
   }
 
-  function buildSvg(qr) {
+  function buildQrSvgElements(qr, total, fg, bg, style) {
+    const parts = [`<rect width="${total}" height="${total}" fill="${bg}"/>`];
     const count = qr.getModuleCount();
     const margin = 4;
-    const total = count + margin * 2;
-    const fg = state.settings.foreground;
-    const bg = state.settings.background;
-    const style = state.settings.moduleStyle;
-    const parts = [`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${total} ${total}" shape-rendering="geometricPrecision">`, `<rect width="${total}" height="${total}" fill="${bg}"/>`];
     for (let row = 0; row < count; row += 1) {
       for (let col = 0; col < count; col += 1) {
         if (!qr.isDark(row, col)) continue;
@@ -765,8 +997,93 @@
       parts.push(`<rect x="${(total-safe)/2}" y="${(total-safe)/2}" width="${safe}" height="${safe}" rx="${safe*.16}" fill="${bg}"/>`);
       parts.push(`<image href="${escapeHtml(state.logoDataUrl)}" x="${(total-logo)/2}" y="${(total-logo)/2}" width="${logo}" height="${logo}" preserveAspectRatio="xMidYMid meet"/>`);
     }
-    parts.push('</svg>');
     return parts.join('');
+  }
+
+  function buildLabelSvgDecorations(frame, accent, bg, textColor) {
+    const parts = [];
+    switch (frame) {
+      case 'rounded':
+        parts.push(`<rect x="11" y="11" width="338" height="468" rx="25" fill="none" stroke="${accent}" stroke-width="3"/>`);
+        parts.push(`<rect x="19" y="19" width="322" height="452" rx="20" fill="none" stroke="${accent}" stroke-opacity=".35" stroke-width="1.5"/>`);
+        break;
+      case 'ticket':
+        parts.push(`<rect x="8" y="8" width="344" height="474" rx="20" fill="none" stroke="${accent}" stroke-width="3"/>`);
+        parts.push(`<path d="M25 90H335" stroke="${accent}" stroke-opacity=".55" stroke-width="2" stroke-dasharray="7 6"/>`);
+        break;
+      case 'ribbon':
+        parts.push(`<path d="M45 0H315V50L295 63L278 50H82L65 63L45 50Z" fill="${accent}"/>`);
+        break;
+      case 'business':
+        parts.push(`<path d="M0 0H18V490H0Z" fill="${accent}"/><path d="M18 0H56V490H18Z" fill="${accent}" opacity=".12"/>`);
+        break;
+      case 'restaurant':
+        parts.push(`<circle cx="35" cy="38" r="18" fill="${accent}"/><text x="35" y="44" text-anchor="middle" font-size="19" fill="${bg}">☕</text>`);
+        parts.push(`<circle cx="330" cy="460" r="18" fill="none" stroke="${accent}" stroke-opacity=".35" stroke-width="2"/>`);
+        break;
+      case 'wifi':
+        parts.push(`<rect x="145" y="9" width="70" height="55" rx="27" fill="${accent}"/>`);
+        parts.push(`<path d="M158 42Q180 22 202 42M164 48Q180 34 196 48M171 54Q180 46 189 54" fill="none" stroke="${bg}" stroke-width="4" stroke-linecap="round"/><circle cx="180" cy="57" r="3" fill="${bg}"/>`);
+        break;
+      case 'event':
+        for (let i=0;i<18;i+=1) {
+          const x=18+(i*47)%325, y=14+(i*71)%450;
+          parts.push(`<rect x="${x}" y="${y}" width="4" height="10" rx="2" fill="${i%3===0?accent:textColor}" opacity="${i%3===0?.8:.18}" transform="rotate(${i*17} ${x+2} ${y+5})"/>`);
+        }
+        break;
+      case 'product':
+        parts.push(`<path d="M20 2H340L358 20V488H2V20Z" fill="none" stroke="${accent}" stroke-width="3"/><circle cx="180" cy="24" r="7" fill="none" stroke="${accent}" stroke-width="3"/>`);
+        break;
+      case 'luxury':
+        parts.push(`<rect x="9" y="9" width="342" height="472" rx="18" fill="none" stroke="${accent}" stroke-width="2"/><rect x="16" y="16" width="328" height="458" rx="14" fill="none" stroke="${accent}" stroke-opacity=".45"/>`);
+        [[24,24],[336,24],[24,466],[336,466]].forEach(([x,y])=>parts.push(`<rect x="${x-4}" y="${y-4}" width="8" height="8" fill="${accent}" transform="rotate(45 ${x} ${y})"/>`));
+        break;
+      case 'sakura':
+        [[28,28],[52,16],[333,35],[318,62],[28,447],[333,455]].forEach(([x,y],idx)=>{
+          for(let n=0;n<5;n+=1) parts.push(`<ellipse cx="${x}" cy="${y-7}" rx="4" ry="8" fill="${accent}" opacity=".23" transform="rotate(${n*72+idx*12} ${x} ${y})"/>`);
+        });
+        break;
+      case 'neon':
+        parts.push(`<rect x="10" y="10" width="340" height="470" rx="24" fill="none" stroke="${accent}" stroke-width="3" filter="url(#glow)"/><rect x="18" y="18" width="324" height="454" rx="18" fill="none" stroke="${accent}" stroke-opacity=".5"/>`);
+        break;
+      default:
+        parts.push(`<path d="M0 0H360V10H0Z" fill="${accent}"/><path d="M0 10H360V18H0Z" fill="${accent}" opacity=".12"/>`);
+    }
+    return parts.join('');
+  }
+
+  function buildSvg(qr) {
+    const count = qr.getModuleCount();
+    const margin = 4;
+    const total = count + margin * 2;
+    const fg = state.settings.foreground;
+    const bg = state.settings.background;
+    const style = state.settings.moduleStyle;
+    const qrElements = buildQrSvgElements(qr, total, fg, bg, style);
+    if (!state.settings.labelEnabled) {
+      return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${total} ${total}" shape-rendering="geometricPrecision">${qrElements}</svg>`;
+    }
+
+    const frame = state.settings.labelFrame;
+    const accent = state.settings.labelAccent;
+    const frameBg = frame === 'neon' && state.settings.labelBackground === '#FFFFFF' ? '#10132B' : state.settings.labelBackground;
+    const textColor = frame === 'neon' && state.settings.labelTextColor === '#17152F' ? '#FFFFFF' : state.settings.labelTextColor;
+    const title = escapeHtml(labelTextValue('labelTitle','defaultLabelTitle'));
+    const subtitle = escapeHtml(labelTextValue('labelSubtitle','defaultLabelSubtitle'));
+    const headingColor = frame === 'ribbon' || frame === 'neon' ? '#FFFFFF' : textColor;
+    const cta = escapeHtml(labelTextValue('labelCta','defaultLabelCta'));
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 490" shape-rendering="geometricPrecision">
+      <defs><filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+      <rect x="6" y="6" width="348" height="478" rx="26" fill="${frameBg}"/>
+      ${buildLabelSvgDecorations(frame,accent,frameBg,textColor)}
+      <text x="180" y="49" text-anchor="middle" fill="${headingColor}" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="24" font-weight="900">${title}</text>
+      <text x="180" y="76" text-anchor="middle" fill="${textColor}" fill-opacity=".72" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="12" font-weight="600">${subtitle}</text>
+      <rect x="45" y="90" width="270" height="270" rx="19" fill="${bg}"/>
+      <svg x="54" y="99" width="252" height="252" viewBox="0 0 ${total} ${total}">${qrElements}</svg>
+      <rect x="48" y="390" width="264" height="45" rx="22" fill="${accent}"/>
+      <text x="180" y="419" text-anchor="middle" fill="#FFFFFF" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="900">${cta}</text>
+      <text x="180" y="463" text-anchor="middle" fill="${textColor}" fill-opacity=".55" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="10" font-weight="700">QR Studio • Free &amp; Private</text>
+    </svg>`;
   }
 
   function updatePayloadCount() {
@@ -794,9 +1111,12 @@
     const thumb = document.createElement('canvas');
     thumb.width = 180; thumb.height = 180;
     const ctx = thumb.getContext('2d');
-    ctx.fillStyle = state.settings.background;
+    ctx.fillStyle = state.settings.labelEnabled ? state.settings.labelBackground : state.settings.background;
     ctx.fillRect(0, 0, 180, 180);
-    ctx.drawImage(source, 0, 0, 180, 180);
+    const ratio = Math.min(180 / source.width, 180 / source.height);
+    const width = source.width * ratio;
+    const height = source.height * ratio;
+    ctx.drawImage(source, (180 - width) / 2, (180 - height) / 2, width, height);
     return thumb.toDataURL('image/png');
   }
 
@@ -894,6 +1214,8 @@
     state.selectedPresetId = '';
     syncSettingsControls();
     renderPresetLibrary();
+    renderFrameLibrary();
+    updateLabelControls();
     renderTypeTabs();
     renderFields();
     updateLogoStatus();
@@ -910,7 +1232,7 @@
   }
 
   function saveWorkingState() {
-    const snapshot = { type: state.type, data: state.data, settings: state.settings, logoDataUrl: state.logoDataUrl, logoName: state.logoName };
+    const snapshot = { type: state.type, data: state.data, settings: state.settings, logoDataUrl: state.logoDataUrl, logoName: state.logoName, selectedPresetId: state.selectedPresetId, presetCategory: state.presetCategory };
     try { localStorage.setItem(STORAGE.state, JSON.stringify(snapshot)); } catch {}
   }
 
@@ -937,7 +1259,18 @@
     $('#qrSizeValue').textContent = `${state.settings.size} px`;
     $('#errorCorrection').value = state.settings.errorCorrection;
     $('#moduleStyle').value = state.settings.moduleStyle;
+    $('#labelEnabled').checked = Boolean(state.settings.labelEnabled);
+    $('#labelTitle').value = state.settings.labelTitle || '';
+    $('#labelSubtitle').value = state.settings.labelSubtitle || '';
+    $('#labelCta').value = state.settings.labelCta || '';
+    $('#labelAccent').value = state.settings.labelAccent;
+    $('#labelAccentHex').value = state.settings.labelAccent.toUpperCase();
+    $('#labelBackground').value = state.settings.labelBackground;
+    $('#labelBackgroundHex').value = state.settings.labelBackground.toUpperCase();
+    $('#labelTextColor').value = state.settings.labelTextColor;
+    $('#labelTextColorHex').value = state.settings.labelTextColor.toUpperCase();
     const category = $('#presetCategory'); if (category) category.value = state.presetCategory || 'all';
+    updateLabelControls();
   }
 
   function validHex(value) { return /^#[0-9A-F]{6}$/i.test(value); }
@@ -979,6 +1312,45 @@
       state.settings.moduleStyle = $('#moduleStyle').value;
       state.selectedPresetId = '';
       saveWorkingState(); renderPresetLibrary(); updatePreview();
+    });
+
+    $('#labelEnabled').addEventListener('change', () => {
+      state.settings.labelEnabled = $('#labelEnabled').checked;
+      updateLabelControls();
+      saveWorkingState();
+      updatePreview();
+    });
+
+    [
+      { selector: '#labelTitle', key: 'labelTitle' },
+      { selector: '#labelSubtitle', key: 'labelSubtitle' },
+      { selector: '#labelCta', key: 'labelCta' }
+    ].forEach(({ selector, key }) => {
+      $(selector).addEventListener('input', () => {
+        state.settings[key] = $(selector).value;
+        saveWorkingState(); updatePreview();
+      });
+    });
+
+    [
+      { color: '#labelAccent', hex: '#labelAccentHex', key: 'labelAccent' },
+      { color: '#labelBackground', hex: '#labelBackgroundHex', key: 'labelBackground' },
+      { color: '#labelTextColor', hex: '#labelTextColorHex', key: 'labelTextColor' }
+    ].forEach(({ color, hex, key }) => {
+      $(color).addEventListener('input', () => {
+        state.settings[key] = $(color).value.toUpperCase();
+        $(hex).value = state.settings[key];
+        saveWorkingState(); renderFrameLibrary(); updatePreview();
+      });
+      $(hex).addEventListener('input', () => {
+        const value = $(hex).value.trim();
+        if (validHex(value)) {
+          state.settings[key] = value.toUpperCase();
+          $(color).value = state.settings[key];
+          saveWorkingState(); renderFrameLibrary(); updatePreview();
+        }
+      });
+      $(hex).addEventListener('blur', () => { $(hex).value = state.settings[key].toUpperCase(); });
     });
   }
 
@@ -1097,7 +1469,7 @@
       state.selectedPresetId = '';
       state.presetCategory = 'all';
       state.logoDataUrl = ''; state.logoName = '';
-      syncSettingsControls(); renderPresetLibrary(); updateLogoStatus(); saveWorkingState(); updatePreview(); toast(t('styleReset'));
+      syncSettingsControls(); renderPresetLibrary(); renderFrameLibrary(); updateLabelControls(); updateLogoStatus(); saveWorkingState(); updatePreview(); toast(t('styleReset'));
     });
     $('#logoUpload').addEventListener('change', (event) => {
       handleLogoFile(event.target.files?.[0]);

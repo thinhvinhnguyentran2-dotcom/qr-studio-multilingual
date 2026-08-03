@@ -7,7 +7,9 @@ QR Studio là ứng dụng web tĩnh, chạy trực tiếp trên GitHub Pages, k
 - 4 ngôn ngữ: Tiếng Việt, 日本語, English, नेपाली.
 - 8 loại QR: văn bản, URL, Wi‑Fi, email, điện thoại, SMS, vị trí và vCard.
 - 50 preset style QR theo ngành nghề: doanh nghiệp, ẩm thực, công nghệ, làm đẹp, y tế, giáo dục, du lịch, sự kiện, bán lẻ và sáng tạo.
-- Tùy chỉnh màu QR, màu nền, kích thước, mức sửa lỗi và kiểu điểm.
+- Trình tạo label QR với 12 khung: tối giản, bo tròn, vé sự kiện, ruy băng, doanh nghiệp, nhà hàng, Wi‑Fi, lễ hội, nhãn sản phẩm, cao cấp, Sakura và Neon.
+- Cho phép sửa tiêu đề, mô tả, lời kêu gọi quét, màu khung, màu nền và màu chữ; PNG/SVG xuất ra bao gồm toàn bộ label.
+- Tùy chỉnh màu QR, màu nền, kích thước, mức sửa lỗi, kiểu điểm và khung label.
 - Thêm logo vào giữa QR; tự chuyển mức sửa lỗi sang H.
 - Tải PNG hoặc SVG, sao chép và chia sẻ trên điện thoại.
 - Lưu tối đa 12 QR trong LocalStorage của thiết bị.

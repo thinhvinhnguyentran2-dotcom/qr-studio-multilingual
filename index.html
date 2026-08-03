@@ -129,6 +129,66 @@
               <div id="presetGrid" class="preset-grid"></div>
             </div>
 
+            <div class="control-group control-group--wide label-designer">
+              <div class="label-designer__heading">
+                <div>
+                  <label data-i18n="labelFrames">Tạo label và khung QR</label>
+                  <p class="field-note" data-i18n="labelFramesHint">Đặt mã QR vào nhãn đẹp để in, dán sản phẩm hoặc đăng mạng xã hội.</p>
+                </div>
+                <label class="switch-control">
+                  <input id="labelEnabled" type="checkbox" />
+                  <span class="switch-control__track" aria-hidden="true"></span>
+                  <span data-i18n="enableLabel">Bật label cho mã QR</span>
+                </label>
+              </div>
+
+              <div id="labelControls" class="label-controls is-disabled">
+                <div class="control-group control-group--wide">
+                  <label data-i18n="frameStyle">Mẫu khung</label>
+                  <div id="frameGrid" class="frame-grid"></div>
+                </div>
+
+                <div class="label-fields-grid">
+                  <div class="control-group">
+                    <label for="labelTitle" data-i18n="labelTitleField">Tiêu đề label</label>
+                    <input id="labelTitle" class="text-input" type="text" maxlength="44" placeholder="QUÉT MÃ QR" />
+                  </div>
+                  <div class="control-group">
+                    <label for="labelSubtitle" data-i18n="labelSubtitleField">Mô tả ngắn</label>
+                    <input id="labelSubtitle" class="text-input" type="text" maxlength="80" placeholder="Hướng camera vào mã để mở nội dung" />
+                  </div>
+                  <div class="control-group control-group--wide">
+                    <label for="labelCta" data-i18n="labelCtaField">Dòng kêu gọi quét</label>
+                    <input id="labelCta" class="text-input" type="text" maxlength="32" placeholder="QUÉT TẠI ĐÂY" />
+                  </div>
+                </div>
+
+                <div class="label-color-grid">
+                  <div class="control-group">
+                    <label data-i18n="frameAccent">Màu nhấn</label>
+                    <div class="color-control">
+                      <input id="labelAccent" type="color" value="#6757f5" />
+                      <input id="labelAccentHex" type="text" value="#6757F5" maxlength="7" aria-label="Label accent color" />
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label data-i18n="frameBackground">Màu label</label>
+                    <div class="color-control">
+                      <input id="labelBackground" type="color" value="#ffffff" />
+                      <input id="labelBackgroundHex" type="text" value="#FFFFFF" maxlength="7" aria-label="Label background color" />
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label data-i18n="frameTextColor">Màu chữ</label>
+                    <div class="color-control">
+                      <input id="labelTextColor" type="color" value="#17152f" />
+                      <input id="labelTextColorHex" type="text" value="#17152F" maxlength="7" aria-label="Label text color" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="control-group">
               <label data-i18n="foregroundColor">Màu mã QR</label>
               <div class="color-control">
