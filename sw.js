@@ -1,11 +1,11 @@
-const CACHE_NAME = 'qr-studio-v1.3.1';
+const CACHE_NAME = 'qr-studio-v1.3.2';
 const CORE_ASSETS = [
   './',
   './index.html',
-  './assets/styles.css?v=1.3.1',
-  './assets/qrcode.js?v=1.3.1',
-  './assets/app.js?v=1.3.1',
-  './manifest.webmanifest?v=1.3.1',
+  './assets/styles.css?v=1.3.2',
+  './assets/qrcode.js?v=1.3.2',
+  './assets/app.js?v=1.3.2',
+  './manifest.webmanifest?v=1.3.2',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-maskable-512.png'

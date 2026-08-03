@@ -527,11 +527,7 @@ html[data-theme="dark"] .theme-icon--moon { display: none; }
 }
 
 
-/* PWA install button and mobile installation guide */
-#installBtn, #installFloatingBtn { white-space: nowrap; }
-#installFloatingBtn { display: none; }
-.install-button__icon { font-size: 1rem; font-weight: 900; line-height: 1; }
-
+/* PWA installation guide */
 .install-guide {
   position: fixed;
   z-index: 140;
@@ -618,60 +614,8 @@ html[data-theme="dark"] .theme-icon--moon { display: none; }
 }
 body.install-guide-open { overflow: hidden; }
 
-@media (max-width: 820px) {
-  /*
-   * The floating install action stays out of the way while the page is idle.
-   * JavaScript adds .is-scroll-active while the user scrolls and removes it
-   * shortly after scrolling stops. Centering it also keeps the language menu clear.
-   */
-  #installBtn { display: none !important; }
-  #installFloatingBtn:not(.is-hidden) {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: fixed;
-    z-index: 90;
-    left: 50%;
-    right: auto;
-    bottom: max(13px, env(safe-area-inset-bottom));
-    min-height: 50px;
-    padding: 0 17px;
-    border: 0;
-    border-radius: 999px;
-    background: linear-gradient(135deg, var(--primary), #8269ff);
-    color: white;
-    box-shadow: 0 14px 35px rgba(65, 47, 196, .38);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transform: translate(-50%, 18px) scale(.96);
-    transition: opacity .2s ease, transform .2s ease, visibility .2s ease;
-    will-change: opacity, transform;
-  }
-  #installFloatingBtn:not(.is-hidden).is-scroll-active {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transform: translate(-50%, 0) scale(1);
-  }
-  #installFloatingBtn:not(.is-hidden).is-scroll-active:hover,
-  #installFloatingBtn:not(.is-hidden).is-scroll-active:focus-visible {
-    color: white;
-    background: linear-gradient(135deg, var(--primary-strong), #775dff);
-  }
-  .toast { bottom: calc(78px + env(safe-area-inset-bottom)); }
-}
 
 @media (max-width: 420px) {
-  #installFloatingBtn:not(.is-hidden) {
-    left: 50%;
-    right: auto;
-    bottom: max(10px, env(safe-area-inset-bottom));
-    min-height: 47px;
-    padding-inline: 14px;
-    font-size: .75rem;
-  }
   .install-guide { padding: 12px; }
   .install-guide__dialog { padding: 23px 18px 18px; border-radius: 21px; }
 }
@@ -825,7 +769,7 @@ body.policy-modal-open { overflow: hidden; }
   .policy-modal__dialog h2 { font-size: 1.32rem; }
 }
 
-/* v1.3.1 — install motion behavior and responsibility actions */
+/* v1.3.2 — in-page install action and responsibility actions */
 .top-actions {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -1,4 +1,4 @@
-# QR Studio v1.3.1 — Full source code
+# QR Studio v1.3.2 — Full source code
 
 QR Studio là ứng dụng tạo mã QR đa ngôn ngữ chạy hoàn toàn trên GitHub Pages, không cần backend hay cơ sở dữ liệu.
 
@@ -12,10 +12,10 @@ QR Studio là ứng dụng tạo mã QR đa ngôn ngữ chạy hoàn toàn trên
 - Tùy chỉnh màu QR, màu nền, kích thước, mức sửa lỗi và logo.
 - Tải PNG, SVG, sao chép, chia sẻ và lưu lịch sử trên thiết bị.
 - Giao diện sáng/tối và full responsive.
-- Trên điện thoại, nút cài ứng dụng chỉ hiện khi người dùng cuộn trang và tự ẩn sau khoảng 1,2 giây không di chuyển, tránh che khu vực chọn ngôn ngữ.
-- Hướng dẫn cài riêng cho Android, iPhone/iPad và trình duyệt khác.
+- Đã bỏ hoàn toàn nút cài ứng dụng ở thanh trên và nút nổi trên điện thoại để không che khu vực chọn ngôn ngữ.
+- Chỉ giữ khu vực **Cài QR Studio trên điện thoại** ngay trong nội dung trang; nút này mở hướng dẫn riêng cho Android, iPhone/iPad và trình duyệt khác.
 - Chính sách sử dụng hiển thị ngay gần đầu trang, có bản đầy đủ trong cửa sổ riêng và file `USAGE_POLICY.md`.
-- Service Worker v1.3.1 sử dụng network-first để hạn chế tình trạng website giữ phiên bản cũ.
+- Service Worker v1.3.2 sử dụng network-first để hạn chế tình trạng website giữ phiên bản cũ.
 
 ## Chạy thử trong VS Code
 
@@ -40,7 +40,7 @@ http://localhost:5500
 
 ```cmd
 git add -A
-git commit -m "Release QR Studio v1.3.1"
+git commit -m "Release QR Studio v1.3.2 remove header install button"
 git push origin main
 ```
 

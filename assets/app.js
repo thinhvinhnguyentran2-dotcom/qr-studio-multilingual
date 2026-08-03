@@ -1559,9 +1559,6 @@
     }
   };
 
-  function isMobileDevice() {
-    return window.matchMedia?.('(max-width: 820px)').matches || /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
-  }
 
   function isStandaloneMode() {
     return window.matchMedia?.('(display-mode: standalone)').matches || window.navigator.standalone === true;
@@ -1574,88 +1571,11 @@
     return 'generic';
   }
 
-  let mobileInstallMotionTimer = 0;
-  const MOBILE_INSTALL_IDLE_DELAY = 1200;
-
-  function setMobileInstallMotionVisible(visible) {
-    const button = $('#installFloatingBtn');
-    if (!button) return;
-
-    const mobile = isMobileDevice();
-    const canShow = mobile && !isStandaloneMode() && !button.classList.contains('is-hidden');
-    const shouldShow = Boolean(visible && canShow);
-
-    button.classList.toggle('is-scroll-active', shouldShow);
-
-    // Prevent an invisible mobile button from receiving keyboard or screen-reader focus.
-    if (mobile) {
-      button.setAttribute('aria-hidden', shouldShow ? 'false' : 'true');
-      button.tabIndex = shouldShow ? 0 : -1;
-    } else {
-      button.removeAttribute('aria-hidden');
-      button.removeAttribute('tabindex');
-    }
-  }
-
-  function hideMobileInstallAfterIdle(delay = MOBILE_INSTALL_IDLE_DELAY) {
-    window.clearTimeout(mobileInstallMotionTimer);
-    mobileInstallMotionTimer = window.setTimeout(() => {
-      setMobileInstallMotionVisible(false);
-    }, delay);
-  }
-
-  function handleMobilePageMotion() {
-    if (!isMobileDevice() || isStandaloneMode()) {
-      setMobileInstallMotionVisible(false);
-      return;
-    }
-
-    setMobileInstallMotionVisible(true);
-    hideMobileInstallAfterIdle();
-  }
-
-  function initializeMobileInstallMotionButton() {
-    const installButton = $('#installFloatingBtn');
-    if (!installButton) return;
-
-    setMobileInstallMotionVisible(false);
-
-    // Scroll covers normal page movement; touchmove and wheel improve response on
-    // browsers that delay scroll dispatch while the finger or trackpad is moving.
-    window.addEventListener('scroll', handleMobilePageMotion, { passive: true });
-    window.addEventListener('touchmove', handleMobilePageMotion, { passive: true });
-    window.addEventListener('wheel', handleMobilePageMotion, { passive: true });
-
-    if ('onscrollend' in window) {
-      window.addEventListener('scrollend', () => hideMobileInstallAfterIdle(900), { passive: true });
-    }
-
-    window.addEventListener('resize', () => {
-      window.clearTimeout(mobileInstallMotionTimer);
-      setMobileInstallMotionVisible(false);
-    }, { passive: true });
-
-    // Keep the button available long enough to tap after the user stops scrolling.
-    installButton.addEventListener('pointerdown', () => {
-      window.clearTimeout(mobileInstallMotionTimer);
-      setMobileInstallMotionVisible(true);
-    });
-    installButton.addEventListener('focus', () => {
-      window.clearTimeout(mobileInstallMotionTimer);
-      setMobileInstallMotionVisible(true);
-    });
-    installButton.addEventListener('blur', () => hideMobileInstallAfterIdle(250));
-  }
-
   function updateInstallButtonVisibility() {
     const installed = isStandaloneMode();
-    ['#installBtn', '#installFloatingBtn', '#installTopBtn'].forEach((selector) => {
-      const button = $(selector);
-      if (button) button.classList.toggle('is-hidden', installed);
-    });
+    const installTopButton = $('#installTopBtn');
+    if (installTopButton) installTopButton.classList.toggle('is-hidden', installed);
     $('#installPromo')?.classList.toggle('is-hidden', installed);
-
-    if (installed || isMobileDevice()) setMobileInstallMotionVisible(false);
   }
 
   function renderInstallGuide() {
@@ -1682,8 +1602,7 @@
     const guide = $('#installGuide');
     guide.hidden = true;
     document.body.classList.remove('install-guide-open');
-    const target = isMobileDevice() ? ($('#installFloatingBtn') || $('#installTopBtn')) : $('#installBtn');
-    target?.focus();
+    $('#installTopBtn')?.focus();
   }
 
   async function handleInstallAction() {
@@ -1789,8 +1708,6 @@
       updateInstallButtonVisibility();
       toast(t('installReady'));
     });
-    $('#installBtn')?.addEventListener('click', handleInstallAction);
-    $('#installFloatingBtn')?.addEventListener('click', handleInstallAction);
     $('#installTopBtn')?.addEventListener('click', handleInstallAction);
     $('#installGuideClose').addEventListener('click', closeInstallGuide);
     $('#installGuideDone').addEventListener('click', closeInstallGuide);
@@ -1813,7 +1730,7 @@
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
       window.addEventListener('load', async () => {
         try {
-          const registration = await navigator.serviceWorker.register('./sw.js?v=1.3.1');
+          const registration = await navigator.serviceWorker.register('./sw.js?v=1.3.2');
           await registration.update();
         } catch (error) {
           console.warn('Service worker:', error);
@@ -1831,7 +1748,6 @@
     applyLanguage();
     updateLogoStatus();
     updateInstallButtonVisibility();
-    initializeMobileInstallMotionButton();
     $('#currentYear').textContent = new Date().getFullYear();
     registerServiceWorker();
 
