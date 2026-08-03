@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#6757f5" />
+  <meta name="description" content="QR Studio - công cụ tạo mã QR miễn phí, đa ngôn ngữ và thân thiện với điện thoại." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="QR Studio" />
+  <meta property="og:description" content="Tạo mã QR miễn phí ngay trên trình duyệt." />
+  <meta property="og:type" content="website" />
+  <title>QR Studio — Free QR Code Generator</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="topbar">
+    <div class="shell topbar__inner">
+      <a class="brand" href="#" aria-label="QR Studio home">
+        <span class="brand__mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span>
+          <strong>QR Studio</strong>
+          <small data-i18n="brandTagline">Nhanh • Riêng tư • Miễn phí</small>
+        </span>
+      </a>
+
+      <div class="topbar__actions">
+        <button id="installBtn" class="button button--ghost button--compact is-hidden" type="button">
+          <span aria-hidden="true">＋</span>
+          <span data-i18n="installApp">Cài ứng dụng</span>
+        </button>
+
+        <label class="language-select" aria-label="Language">
+          <span id="languageFlag" aria-hidden="true">🇻🇳</span>
+          <select id="languageSelect">
+            <option value="vi">Tiếng Việt</option>
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+            <option value="ne">नेपाली</option>
+          </select>
+        </label>
+
+        <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="theme-icon theme-icon--sun" aria-hidden="true">☀</span>
+          <span class="theme-icon theme-icon--moon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero shell">
+      <div class="hero__copy">
+        <div class="eyebrow"><span></span><span data-i18n="heroEyebrow">Không cần đăng ký</span></div>
+        <h1 data-i18n="heroTitle">Tạo mã QR đẹp trong vài giây</h1>
+        <p data-i18n="heroDescription">Chọn nội dung, tùy chỉnh thiết kế và tải xuống. Mọi dữ liệu được xử lý trực tiếp trên thiết bị của bạn.</p>
+        <div class="trust-row">
+          <span><b>✓</b><span data-i18n="trustFree">Miễn phí</span></span>
+          <span><b>✓</b><span data-i18n="trustNoAccount">Không tài khoản</span></span>
+          <span><b>✓</b><span data-i18n="trustPrivate">Không gửi dữ liệu</span></span>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="mini-qr"><span></span><span></span><span></span></div>
+        <div class="floating-card floating-card--one">URL</div>
+        <div class="floating-card floating-card--two">Wi‑Fi</div>
+        <div class="floating-card floating-card--three">vCard</div>
+      </div>
+    </section>
+
+    <section class="workspace shell" aria-label="QR generator">
+      <div class="workspace__editor">
+        <section class="panel panel--types">
+          <div class="section-heading">
+            <div>
+              <span class="step-badge">1</span>
+              <div>
+                <h2 data-i18n="chooseType">Chọn loại mã QR</h2>
+                <p data-i18n="chooseTypeHint">Bạn muốn chia sẻ nội dung gì?</p>
+              </div>
+            </div>
+          </div>
+          <div id="typeTabs" class="type-tabs" role="tablist"></div>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <div>
+              <span class="step-badge">2</span>
+              <div>
+                <h2 id="contentHeading" data-i18n="enterContent">Nhập nội dung</h2>
+                <p id="contentHint" data-i18n="enterContentHint">Điền thông tin sẽ được lưu trong mã QR.</p>
+              </div>
+            </div>
+          </div>
+          <form id="qrForm" novalidate>
+            <div id="dynamicFields" class="form-grid"></div>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading section-heading--spread">
+            <div>
+              <span class="step-badge">3</span>
+              <div>
+                <h2 data-i18n="customize">Tùy chỉnh thiết kế</h2>
+                <p data-i18n="customizeHint">Màu sắc, kích thước và logo.</p>
+              </div>
+            </div>
+            <button id="resetStyleBtn" class="text-button" type="button" data-i18n="resetStyle">Đặt lại</button>
+          </div>
+
+          <div class="customize-grid">
+            <div class="control-group">
+              <label data-i18n="foregroundColor">Màu mã QR</label>
+              <div class="color-control">
+                <input id="foregroundColor" type="color" value="#17152f" />
+                <input id="foregroundHex" type="text" value="#17152F" maxlength="7" aria-label="Foreground hex color" />
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label data-i18n="backgroundColor">Màu nền</label>
+              <div class="color-control">
+                <input id="backgroundColor" type="color" value="#ffffff" />
+                <input id="backgroundHex" type="text" value="#FFFFFF" maxlength="7" aria-label="Background hex color" />
+              </div>
+            </div>
+
+            <div class="control-group control-group--wide">
+              <div class="label-row">
+                <label for="qrSize" data-i18n="qrSize">Kích thước</label>
+                <output id="qrSizeValue">360 px</output>
+              </div>
+              <input id="qrSize" class="range" type="range" min="240" max="720" step="40" value="360" />
+            </div>
+
+            <div class="control-group">
+              <label for="errorCorrection" data-i18n="errorCorrection">Khả năng sửa lỗi</label>
+              <select id="errorCorrection" class="select-input">
+                <option value="L">L — 7%</option>
+                <option value="M" selected>M — 15%</option>
+                <option value="Q">Q — 25%</option>
+                <option value="H">H — 30%</option>
+              </select>
+            </div>
+
+            <div class="control-group">
+              <label for="moduleStyle" data-i18n="moduleStyle">Kiểu điểm</label>
+              <select id="moduleStyle" class="select-input">
+                <option value="square" data-i18n="styleSquare">Vuông</option>
+                <option value="rounded" data-i18n="styleRounded">Bo tròn</option>
+                <option value="dots" data-i18n="styleDots">Chấm tròn</option>
+              </select>
+            </div>
+
+            <div class="control-group control-group--wide">
+              <label data-i18n="addLogo">Thêm logo ở giữa</label>
+              <div class="upload-row">
+                <label class="upload-button" for="logoUpload">
+                  <span aria-hidden="true">↥</span>
+                  <span data-i18n="chooseImage">Chọn ảnh</span>
+                </label>
+                <input id="logoUpload" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" hidden />
+                <div id="logoStatus" class="logo-status" data-i18n="noImageSelected">Chưa chọn ảnh</div>
+                <button id="removeLogoBtn" class="icon-button icon-button--small is-hidden" type="button" aria-label="Remove logo">×</button>
+              </div>
+              <p class="field-note" data-i18n="logoHint">Nên dùng mức sửa lỗi H và logo nhỏ hơn 20% mã QR.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="workspace__preview">
+        <section class="panel preview-panel">
+          <div class="preview-panel__header">
+            <div>
+              <span class="status-dot"></span>
+              <span data-i18n="livePreview">Xem trước trực tiếp</span>
+            </div>
+            <span id="payloadCount" class="character-count">0</span>
+          </div>
+
+          <div id="qrStage" class="qr-stage">
+            <canvas id="qrCanvas" width="360" height="360" aria-label="Generated QR code"></canvas>
+            <div id="qrPlaceholder" class="qr-placeholder">
+              <div class="placeholder-icon" aria-hidden="true">⌗</div>
+              <strong data-i18n="previewEmptyTitle">Mã QR sẽ hiện ở đây</strong>
+              <span data-i18n="previewEmptyHint">Nhập nội dung để bắt đầu</span>
+            </div>
+          </div>
+
+          <div id="validationMessage" class="validation-message" role="status"></div>
+
+          <button id="saveHistoryBtn" class="button button--primary button--full" type="button">
+            <span aria-hidden="true">✦</span>
+            <span data-i18n="generateSave">Tạo và lưu vào lịch sử</span>
+          </button>
+
+          <div class="download-grid">
+            <button id="downloadPngBtn" class="button button--secondary" type="button" disabled>
+              <span aria-hidden="true">↓</span><span>PNG</span>
+            </button>
+            <button id="downloadSvgBtn" class="button button--secondary" type="button" disabled>
+              <span aria-hidden="true">↓</span><span>SVG</span>
+            </button>
+            <button id="copyBtn" class="button button--secondary" type="button" disabled>
+              <span aria-hidden="true">⧉</span><span data-i18n="copy">Sao chép</span>
+            </button>
+            <button id="shareBtn" class="button button--secondary" type="button" disabled>
+              <span aria-hidden="true">↗</span><span data-i18n="share">Chia sẻ</span>
+            </button>
+          </div>
+
+          <div class="privacy-note">
+            <span aria-hidden="true">♢</span>
+            <p><strong data-i18n="privacyTitle">Dữ liệu riêng tư</strong><span data-i18n="privacyText">Mọi xử lý diễn ra trên thiết bị. Không có dữ liệu nào được tải lên máy chủ.</span></p>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="history-section shell">
+      <div class="history-section__header">
+        <div>
+          <div class="eyebrow"><span></span><span data-i18n="localHistory">Lưu cục bộ</span></div>
+          <h2 data-i18n="historyTitle">Lịch sử gần đây</h2>
+          <p data-i18n="historyHint">Tối đa 12 mã QR được lưu trên thiết bị này.</p>
+        </div>
+        <button id="clearHistoryBtn" class="button button--ghost button--compact" type="button">
+          <span aria-hidden="true">⌫</span><span data-i18n="clearHistory">Xóa lịch sử</span>
+        </button>
+      </div>
+      <div id="historyGrid" class="history-grid"></div>
+      <div id="historyEmpty" class="empty-state">
+        <div aria-hidden="true">◫</div>
+        <strong data-i18n="historyEmptyTitle">Chưa có mã QR nào</strong>
+        <span data-i18n="historyEmptyHint">Mã QR bạn lưu sẽ xuất hiện tại đây.</span>
+      </div>
+    </section>
+
+    <section class="features shell">
+      <article><span>⚡</span><h3 data-i18n="featureFastTitle">Tạo tức thì</h3><p data-i18n="featureFastText">Xem trước cập nhật ngay khi nhập.</p></article>
+      <article><span>◉</span><h3 data-i18n="featureResponsiveTitle">Tối ưu điện thoại</h3><p data-i18n="featureResponsiveText">Giao diện full responsive trên mọi màn hình.</p></article>
+      <article><span>⌁</span><h3 data-i18n="featureOfflineTitle">Có thể cài đặt</h3><p data-i18n="featureOfflineText">Thêm vào màn hình chính như một ứng dụng.</p></article>
+      <article><span>◎</span><h3 data-i18n="featureLanguageTitle">4 ngôn ngữ</h3><p data-i18n="featureLanguageText">Việt, Nhật, Anh và Nepal.</p></article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div class="brand brand--footer">
+        <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span><strong>QR Studio</strong><small data-i18n="footerTagline">Tạo QR miễn phí cho mọi người</small></span>
+      </div>
+      <p>© <span id="currentYear"></span> QR Studio. <span data-i18n="footerOpenSource">Mã nguồn mở, triển khai trên GitHub Pages.</span></p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/qrcode.js"></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
