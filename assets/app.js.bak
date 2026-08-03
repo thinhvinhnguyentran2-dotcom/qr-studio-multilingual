@@ -25,7 +25,7 @@
       heroTitle: 'Tạo mã QR đẹp trong vài giây', heroDescription: 'Chọn nội dung, tùy chỉnh thiết kế và tải xuống. Mọi dữ liệu được xử lý trực tiếp trên thiết bị của bạn.',
       trustFree: 'Miễn phí', trustNoAccount: 'Không tài khoản', trustPrivate: 'Không gửi dữ liệu', chooseType: 'Chọn loại mã QR', chooseTypeHint: 'Bạn muốn chia sẻ nội dung gì?',
       enterContent: 'Nhập nội dung', enterContentHint: 'Điền thông tin sẽ được lưu trong mã QR.', customize: 'Tùy chỉnh thiết kế', customizeHint: 'Màu sắc, kích thước và logo.',
-      resetStyle: 'Đặt lại', presetLibrary: 'Thư viện style QR', presetLibraryHint: 'Chọn nhanh 1 trong 50 preset theo ngành nghề.', presetCategory: 'Nhóm preset', applyPreset: 'Áp dụng preset', presetApplied: 'Đã áp dụng preset: {name}', categoryAll: 'Tất cả', categoryBusiness: 'Doanh nghiệp', categoryFood: 'Ẩm thực', categoryTech: 'Công nghệ', categoryBeauty: 'Thời trang & làm đẹp', categoryHealth: 'Y tế', categoryEducation: 'Giáo dục', categoryTravel: 'Du lịch', categoryEvents: 'Sự kiện', categoryRetail: 'Bán lẻ', categoryCreative: 'Sáng tạo', foregroundColor: 'Màu mã QR', backgroundColor: 'Màu nền', qrSize: 'Kích thước', errorCorrection: 'Khả năng sửa lỗi', moduleStyle: 'Kiểu điểm',
+      resetStyle: 'Đặt lại', foregroundColor: 'Màu mã QR', backgroundColor: 'Màu nền', qrSize: 'Kích thước', errorCorrection: 'Khả năng sửa lỗi', moduleStyle: 'Kiểu điểm',
       styleSquare: 'Vuông', styleRounded: 'Bo tròn', styleDots: 'Chấm tròn', addLogo: 'Thêm logo ở giữa', chooseImage: 'Chọn ảnh', noImageSelected: 'Chưa chọn ảnh',
       logoHint: 'Nên dùng mức sửa lỗi H và logo nhỏ hơn 20% mã QR.', livePreview: 'Xem trước trực tiếp', previewEmptyTitle: 'Mã QR sẽ hiện ở đây', previewEmptyHint: 'Nhập nội dung để bắt đầu',
       generateSave: 'Tạo và lưu vào lịch sử', copy: 'Sao chép', share: 'Chia sẻ', privacyTitle: 'Dữ liệu riêng tư', privacyText: 'Mọi xử lý diễn ra trên thiết bị. Không có dữ liệu nào được tải lên máy chủ.',
@@ -53,7 +53,7 @@
       heroTitle: '美しいQRコードを数秒で作成', heroDescription: '内容を選び、デザインを調整してダウンロード。すべてのデータは端末上で処理されます。',
       trustFree: '完全無料', trustNoAccount: 'アカウント不要', trustPrivate: 'データ送信なし', chooseType: 'QRコードの種類を選択', chooseTypeHint: '何を共有しますか？',
       enterContent: '内容を入力', enterContentHint: 'QRコードに保存する情報を入力してください。', customize: 'デザインを調整', customizeHint: '色、サイズ、ロゴを設定できます。',
-      resetStyle: 'リセット', presetLibrary: 'QRスタイルライブラリ', presetLibraryHint: '業種別の50種類のプリセットからすばやく選択できます。', presetCategory: 'プリセットカテゴリ', applyPreset: 'プリセットを適用', presetApplied: 'プリセットを適用しました: {name}', categoryAll: 'すべて', categoryBusiness: 'ビジネス', categoryFood: '飲食', categoryTech: 'テクノロジー', categoryBeauty: 'ファッション・美容', categoryHealth: '医療', categoryEducation: '教育', categoryTravel: '旅行', categoryEvents: 'イベント', categoryRetail: '小売', categoryCreative: 'クリエイティブ', foregroundColor: 'QRの色', backgroundColor: '背景色', qrSize: 'サイズ', errorCorrection: '誤り訂正レベル', moduleStyle: 'ドット形式',
+      resetStyle: 'リセット', foregroundColor: 'QRの色', backgroundColor: '背景色', qrSize: 'サイズ', errorCorrection: '誤り訂正レベル', moduleStyle: 'ドット形式',
       styleSquare: '四角', styleRounded: '角丸', styleDots: '丸', addLogo: '中央にロゴを追加', chooseImage: '画像を選択', noImageSelected: '画像未選択',
       logoHint: '誤り訂正H、ロゴはQR全体の20%未満を推奨します。', livePreview: 'ライブプレビュー', previewEmptyTitle: 'QRコードがここに表示されます', previewEmptyHint: '内容を入力して開始',
       generateSave: '作成して履歴に保存', copy: 'コピー', share: '共有', privacyTitle: 'プライバシー保護', privacyText: '処理はすべて端末上で行われ、データはサーバーへ送信されません。',
@@ -81,7 +81,7 @@
       heroTitle: 'Create beautiful QR codes in seconds', heroDescription: 'Choose your content, customize the design, and download. All data is processed directly on your device.',
       trustFree: 'Free forever', trustNoAccount: 'No account', trustPrivate: 'No data upload', chooseType: 'Choose a QR code type', chooseTypeHint: 'What would you like to share?',
       enterContent: 'Enter your content', enterContentHint: 'Fill in the information that will be stored in the QR code.', customize: 'Customize the design', customizeHint: 'Colors, size, and logo.',
-      resetStyle: 'Reset', presetLibrary: 'QR style library', presetLibraryHint: 'Quickly choose from 50 presets grouped by industry.', presetCategory: 'Preset category', applyPreset: 'Apply preset', presetApplied: 'Preset applied: {name}', categoryAll: 'All', categoryBusiness: 'Business', categoryFood: 'Food & Drink', categoryTech: 'Technology', categoryBeauty: 'Fashion & Beauty', categoryHealth: 'Healthcare', categoryEducation: 'Education', categoryTravel: 'Travel', categoryEvents: 'Events', categoryRetail: 'Retail', categoryCreative: 'Creative', foregroundColor: 'QR color', backgroundColor: 'Background color', qrSize: 'Size', errorCorrection: 'Error correction', moduleStyle: 'Module style',
+      resetStyle: 'Reset', foregroundColor: 'QR color', backgroundColor: 'Background color', qrSize: 'Size', errorCorrection: 'Error correction', moduleStyle: 'Module style',
       styleSquare: 'Square', styleRounded: 'Rounded', styleDots: 'Dots', addLogo: 'Add a center logo', chooseImage: 'Choose image', noImageSelected: 'No image selected',
       logoHint: 'Use error correction H and keep the logo under 20% of the QR code.', livePreview: 'Live preview', previewEmptyTitle: 'Your QR code will appear here', previewEmptyHint: 'Enter content to begin',
       generateSave: 'Generate and save to history', copy: 'Copy', share: 'Share', privacyTitle: 'Private by design', privacyText: 'Everything is processed on your device. No data is uploaded to a server.',
@@ -109,7 +109,7 @@
       heroTitle: 'केही सेकेन्डमै सुन्दर QR कोड बनाउनुहोस्', heroDescription: 'सामग्री छान्नुहोस्, डिजाइन मिलाउनुहोस् र डाउनलोड गर्नुहोस्। सबै डेटा तपाईंको उपकरणमै प्रशोधन हुन्छ।',
       trustFree: 'सधैं निःशुल्क', trustNoAccount: 'खाता आवश्यक छैन', trustPrivate: 'डेटा अपलोड हुँदैन', chooseType: 'QR कोडको प्रकार छान्नुहोस्', chooseTypeHint: 'तपाईं के साझा गर्न चाहनुहुन्छ?',
       enterContent: 'सामग्री लेख्नुहोस्', enterContentHint: 'QR कोडमा राखिने जानकारी भर्नुहोस्।', customize: 'डिजाइन मिलाउनुहोस्', customizeHint: 'रङ, आकार र लोगो।',
-      resetStyle: 'रिसेट', presetLibrary: 'QR शैली पुस्तकालय', presetLibraryHint: 'उद्योग अनुसार वर्गीकृत ५० प्रिसेटबाट छिटो छान्नुहोस्।', presetCategory: 'प्रिसेट समूह', applyPreset: 'प्रिसेट लागू गर्नुहोस्', presetApplied: 'प्रिसेट लागू भयो: {name}', categoryAll: 'सबै', categoryBusiness: 'व्यवसाय', categoryFood: 'खाना र पेय', categoryTech: 'प्रविधि', categoryBeauty: 'फेसन र सौन्दर्य', categoryHealth: 'स्वास्थ्य', categoryEducation: 'शिक्षा', categoryTravel: 'यात्रा', categoryEvents: 'कार्यक्रम', categoryRetail: 'रिटेल', categoryCreative: 'सिर्जनात्मक', foregroundColor: 'QR को रङ', backgroundColor: 'पृष्ठभूमिको रङ', qrSize: 'आकार', errorCorrection: 'त्रुटि सुधार', moduleStyle: 'बिन्दु शैली',
+      resetStyle: 'रिसेट', foregroundColor: 'QR को रङ', backgroundColor: 'पृष्ठभूमिको रङ', qrSize: 'आकार', errorCorrection: 'त्रुटि सुधार', moduleStyle: 'बिन्दु शैली',
       styleSquare: 'चौकोर', styleRounded: 'गोलो किनारा', styleDots: 'गोल बिन्दु', addLogo: 'बीचमा लोगो थप्नुहोस्', chooseImage: 'तस्बिर छान्नुहोस्', noImageSelected: 'तस्बिर छानिएको छैन',
       logoHint: 'त्रुटि सुधार H प्रयोग गर्नुहोस् र लोगो QR को 20% भन्दा सानो राख्नुहोस्।', livePreview: 'प्रत्यक्ष पूर्वावलोकन', previewEmptyTitle: 'QR कोड यहाँ देखिनेछ', previewEmptyHint: 'सुरु गर्न सामग्री लेख्नुहोस्',
       generateSave: 'बनाउनुहोस् र इतिहासमा राख्नुहोस्', copy: 'प्रतिलिपि', share: 'साझा', privacyTitle: 'निजी डेटा', privacyText: 'सबै काम उपकरणमै हुन्छ। कुनै डेटा सर्भरमा पठाइँदैन।',
@@ -164,74 +164,6 @@
     moduleStyle: 'square'
   };
 
-
-  const presetCategories = [
-    { id: 'all', label: 'categoryAll' },
-    { id: 'business', label: 'categoryBusiness' },
-    { id: 'food', label: 'categoryFood' },
-    { id: 'tech', label: 'categoryTech' },
-    { id: 'beauty', label: 'categoryBeauty' },
-    { id: 'health', label: 'categoryHealth' },
-    { id: 'education', label: 'categoryEducation' },
-    { id: 'travel', label: 'categoryTravel' },
-    { id: 'events', label: 'categoryEvents' },
-    { id: 'retail', label: 'categoryRetail' },
-    { id: 'creative', label: 'categoryCreative' }
-  ];
-
-  const presetStyles = [
-    { id: 'classic-black', name: 'Classic Black', category: 'business', foreground: '#17152F', background: '#FFFFFF', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'navy-boardroom', name: 'Navy Boardroom', category: 'business', foreground: '#132A5E', background: '#FFFFFF', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'executive-gold', name: 'Executive Gold', category: 'business', foreground: '#5D4600', background: '#FFF8E3', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'finance-trust', name: 'Finance Trust', category: 'business', foreground: '#114B5F', background: '#F3FBFD', moduleStyle: 'rounded', errorCorrection: 'M' },
-    { id: 'legal-formal', name: 'Legal Formal', category: 'business', foreground: '#20273A', background: '#F5F6FA', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'pho-street', name: 'Pho Street', category: 'food', foreground: '#7A2318', background: '#FFF4E8', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'matcha-cafe', name: 'Matcha Cafe', category: 'food', foreground: '#4E6B2A', background: '#F7FBF1', moduleStyle: 'dots', errorCorrection: 'Q' },
-    { id: 'coffee-bean', name: 'Coffee Bean', category: 'food', foreground: '#4D2F24', background: '#FAF5EF', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'bubble-tea', name: 'Bubble Tea', category: 'food', foreground: '#7B4CE2', background: '#FFF6FB', moduleStyle: 'dots', errorCorrection: 'H' },
-    { id: 'bbq-flame', name: 'BBQ Flame', category: 'food', foreground: '#A82E16', background: '#FFF6F2', moduleStyle: 'hex', errorCorrection: 'Q' },
-    { id: 'cyber-blue', name: 'Cyber Blue', category: 'tech', foreground: '#0064FF', background: '#F7FAFF', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'neon-pulse', name: 'Neon Pulse', category: 'tech', foreground: '#00B2A9', background: '#F1FFFD', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'data-grid', name: 'Data Grid', category: 'tech', foreground: '#1A1F36', background: '#F5F7FE', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'circuit-green', name: 'Circuit Green', category: 'tech', foreground: '#007A55', background: '#F0FFF8', moduleStyle: 'hex', errorCorrection: 'Q' },
-    { id: 'quantum-violet', name: 'Quantum Violet', category: 'tech', foreground: '#5B3DF5', background: '#F8F6FF', moduleStyle: 'classy', errorCorrection: 'Q' },
-    { id: 'rose-glam', name: 'Rose Glam', category: 'beauty', foreground: '#C44F8A', background: '#FFF7FC', moduleStyle: 'dots', errorCorrection: 'H' },
-    { id: 'luxe-beauty', name: 'Luxe Beauty', category: 'beauty', foreground: '#8B6A15', background: '#FFFBEF', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'sakura-boutique', name: 'Sakura Boutique', category: 'beauty', foreground: '#E2679D', background: '#FFF7FB', moduleStyle: 'extraRounded', errorCorrection: 'H' },
-    { id: 'black-elegance', name: 'Black Elegance', category: 'beauty', foreground: '#1A1A1A', background: '#FFFDF9', moduleStyle: 'classy', errorCorrection: 'Q' },
-    { id: 'pastel-salon', name: 'Pastel Salon', category: 'beauty', foreground: '#8B64C6', background: '#FCF8FF', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'medical-clean', name: 'Medical Clean', category: 'health', foreground: '#1479C9', background: '#F4FBFF', moduleStyle: 'rounded', errorCorrection: 'M' },
-    { id: 'dental-fresh', name: 'Dental Fresh', category: 'health', foreground: '#00A0B8', background: '#F3FFFF', moduleStyle: 'dots', errorCorrection: 'Q' },
-    { id: 'clinic-trust', name: 'Clinic Trust', category: 'health', foreground: '#297373', background: '#F5FCFB', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'pharmacy-green', name: 'Pharmacy Green', category: 'health', foreground: '#3B7D3A', background: '#F5FFF3', moduleStyle: 'classy', errorCorrection: 'M' },
-    { id: 'wellness-soft', name: 'Wellness Soft', category: 'health', foreground: '#5DA399', background: '#F7FFFC', moduleStyle: 'extraRounded', errorCorrection: 'Q' },
-    { id: 'study-smart', name: 'Study Smart', category: 'education', foreground: '#355CDE', background: '#F6F8FF', moduleStyle: 'square', errorCorrection: 'M' },
-    { id: 'kids-rainbow', name: 'Kids Rainbow', category: 'education', foreground: '#FF7A59', background: '#FFF9F5', moduleStyle: 'dots', errorCorrection: 'H' },
-    { id: 'language-hub', name: 'Language Hub', category: 'education', foreground: '#00A17D', background: '#F4FFFB', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'campus-formal', name: 'Campus Formal', category: 'education', foreground: '#243B53', background: '#F8FAFC', moduleStyle: 'diamond', errorCorrection: 'M' },
-    { id: 'learning-lab', name: 'Learning Lab', category: 'education', foreground: '#6D5AE6', background: '#F9F8FF', moduleStyle: 'hex', errorCorrection: 'Q' },
-    { id: 'ocean-travel', name: 'Ocean Travel', category: 'travel', foreground: '#1572A1', background: '#F3FAFF', moduleStyle: 'dots', errorCorrection: 'Q' },
-    { id: 'resort-premium', name: 'Resort Premium', category: 'travel', foreground: '#0E5A6C', background: '#F6FFFE', moduleStyle: 'classy', errorCorrection: 'Q' },
-    { id: 'hotel-elegant', name: 'Hotel Elegant', category: 'travel', foreground: '#574B90', background: '#F8F7FF', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'mountain-retreat', name: 'Mountain Retreat', category: 'travel', foreground: '#45624E', background: '#F8FFF7', moduleStyle: 'hex', errorCorrection: 'Q' },
-    { id: 'city-guide', name: 'City Guide', category: 'travel', foreground: '#C25B2A', background: '#FFF8F4', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'event-neon', name: 'Event Neon', category: 'events', foreground: '#FF2F92', background: '#FFF8FD', moduleStyle: 'star', errorCorrection: 'H' },
-    { id: 'concert-glow', name: 'Concert Glow', category: 'events', foreground: '#6B40FF', background: '#F8F5FF', moduleStyle: 'diamond', errorCorrection: 'H' },
-    { id: 'festival-night', name: 'Festival Night', category: 'events', foreground: '#1D267D', background: '#F6F7FF', moduleStyle: 'hex', errorCorrection: 'H' },
-    { id: 'party-pop', name: 'Party Pop', category: 'events', foreground: '#F86624', background: '#FFF8F2', moduleStyle: 'dots', errorCorrection: 'H' },
-    { id: 'wedding-soft', name: 'Wedding Soft', category: 'events', foreground: '#AF5D98', background: '#FFF9FD', moduleStyle: 'extraRounded', errorCorrection: 'H' },
-    { id: 'retail-pop', name: 'Retail Pop', category: 'retail', foreground: '#D94841', background: '#FFF7F6', moduleStyle: 'square', errorCorrection: 'Q' },
-    { id: 'social-media-pop', name: 'Social Media Pop', category: 'retail', foreground: '#E94057', background: '#FFF8FA', moduleStyle: 'dots', errorCorrection: 'H' },
-    { id: 'gift-shop', name: 'Gift Shop', category: 'retail', foreground: '#B56576', background: '#FFF8FA', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'organic-market', name: 'Organic Market', category: 'retail', foreground: '#4E8D3B', background: '#F7FFF4', moduleStyle: 'hex', errorCorrection: 'Q' },
-    { id: 'modern-store', name: 'Modern Store', category: 'retail', foreground: '#1F2937', background: '#FAFAFA', moduleStyle: 'classy', errorCorrection: 'M' },
-    { id: 'creator-studio', name: 'Creator Studio', category: 'creative', foreground: '#6651F0', background: '#F8F7FF', moduleStyle: 'diamond', errorCorrection: 'Q' },
-    { id: 'watercolor-soft', name: 'Watercolor Soft', category: 'creative', foreground: '#4BA3C3', background: '#F3FBFF', moduleStyle: 'extraRounded', errorCorrection: 'Q' },
-    { id: 'handmade-craft', name: 'Handmade Craft', category: 'creative', foreground: '#A05A2C', background: '#FFF8F0', moduleStyle: 'rounded', errorCorrection: 'Q' },
-    { id: 'poster-bold', name: 'Poster Bold', category: 'creative', foreground: '#111827', background: '#F9FAFB', moduleStyle: 'star', errorCorrection: 'H' },
-    { id: 'art-house', name: 'Art House', category: 'creative', foreground: '#7C3AED', background: '#FAF5FF', moduleStyle: 'hex', errorCorrection: 'Q' }
-  ];
-
   const state = {
     language: localStorage.getItem(STORAGE.language) || detectLanguage(),
     theme: localStorage.getItem(STORAGE.theme) || detectTheme(),
@@ -243,8 +175,6 @@
     history: readHistory(),
     currentPayload: '',
     currentSvg: '',
-    selectedPresetId: '',
-    presetCategory: 'all',
     valid: false,
     renderToken: 0,
     deferredInstallPrompt: null
@@ -286,7 +216,6 @@
     renderTypeTabs();
     renderFields();
     renderHistory();
-    renderPresetLibrary();
     updatePayloadCount();
     updatePreview();
   }
@@ -544,42 +473,6 @@
     }
   }
 
-
-  function renderPresetLibrary() {
-    const select = $('#presetCategory');
-    if (select) {
-      select.innerHTML = presetCategories.map((item) => `<option value="${escapeHtml(item.id)}">${escapeHtml(t(item.label))}</option>`).join('');
-      select.value = state.presetCategory || 'all';
-    }
-    const grid = $('#presetGrid');
-    if (!grid) return;
-    const visible = presetStyles.filter((item) => state.presetCategory === 'all' || item.category === state.presetCategory);
-    grid.innerHTML = visible.map((preset) => `
-      <button class="preset-card ${state.selectedPresetId === preset.id ? 'is-active' : ''}" type="button" data-preset-id="${escapeHtml(preset.id)}" aria-label="${escapeHtml(preset.name)}">
-        <span class="preset-card__preview preset-shape--${escapeHtml(preset.moduleStyle)}" style="--preset-fg:${escapeHtml(preset.foreground)};--preset-bg:${escapeHtml(preset.background)}">
-          <i></i><i></i><i></i><b></b>
-        </span>
-        <span class="preset-card__name">${escapeHtml(preset.name)}</span>
-      </button>
-    `).join('');
-    $$('[data-preset-id]', grid).forEach((button) => button.addEventListener('click', () => applyPreset(button.dataset.presetId)));
-  }
-
-  function applyPreset(id) {
-    const preset = presetStyles.find((item) => item.id === id);
-    if (!preset) return;
-    state.selectedPresetId = preset.id;
-    state.settings.foreground = preset.foreground;
-    state.settings.background = preset.background;
-    state.settings.moduleStyle = preset.moduleStyle;
-    state.settings.errorCorrection = preset.errorCorrection;
-    syncSettingsControls();
-    saveWorkingState();
-    renderPresetLibrary();
-    updatePreview();
-    toast(t('presetApplied', { name: preset.name }));
-  }
-
   function clearCanvas() {
     const canvas = $('#qrCanvas');
     const context = canvas.getContext('2d');
@@ -591,68 +484,6 @@
     const topRight = row <= 6 && col >= count - 7;
     const bottomLeft = row >= count - 7 && col <= 6;
     return topLeft || topRight || bottomLeft;
-  }
-
-
-  function drawModule(ctx, style, x, y, unit) {
-    switch (style) {
-      case 'dots':
-        ctx.beginPath();
-        ctx.arc(x + unit / 2, y + unit / 2, unit * .43, 0, Math.PI * 2);
-        ctx.fill();
-        break;
-      case 'rounded':
-        roundedRect(ctx, x + unit * .06, y + unit * .06, unit * .88, unit * .88, unit * .24);
-        ctx.fill();
-        break;
-      case 'extraRounded':
-        roundedRect(ctx, x + unit * .08, y + unit * .08, unit * .84, unit * .84, unit * .38);
-        ctx.fill();
-        break;
-      case 'diamond':
-        ctx.beginPath();
-        ctx.moveTo(x + unit / 2, y + unit * .05);
-        ctx.lineTo(x + unit * .95, y + unit / 2);
-        ctx.lineTo(x + unit / 2, y + unit * .95);
-        ctx.lineTo(x + unit * .05, y + unit / 2);
-        ctx.closePath();
-        ctx.fill();
-        break;
-      case 'hex':
-        ctx.beginPath();
-        ctx.moveTo(x + unit * .5, y + unit * .04);
-        ctx.lineTo(x + unit * .88, y + unit * .26);
-        ctx.lineTo(x + unit * .88, y + unit * .74);
-        ctx.lineTo(x + unit * .5, y + unit * .96);
-        ctx.lineTo(x + unit * .12, y + unit * .74);
-        ctx.lineTo(x + unit * .12, y + unit * .26);
-        ctx.closePath();
-        ctx.fill();
-        break;
-      case 'star':
-        drawStar(ctx, x + unit / 2, y + unit / 2, unit * .42, unit * .2, 4);
-        ctx.fill();
-        break;
-      case 'classy':
-        roundedRect(ctx, x + unit * .02, y + unit * .12, unit * .96, unit * .76, unit * .2);
-        ctx.fill();
-        break;
-      default:
-        ctx.fillRect(Math.floor(x), Math.floor(y), Math.ceil(unit + .25), Math.ceil(unit + .25));
-    }
-  }
-
-  function drawStar(ctx, cx, cy, outerRadius, innerRadius, points) {
-    let rotation = -Math.PI / 2;
-    ctx.beginPath();
-    for (let i = 0; i < points * 2; i += 1) {
-      const radius = i % 2 === 0 ? outerRadius : innerRadius;
-      const x = cx + Math.cos(rotation) * radius;
-      const y = cy + Math.sin(rotation) * radius;
-      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-      rotation += Math.PI / points;
-    }
-    ctx.closePath();
   }
 
   async function drawQrToCanvas(qr, token) {
@@ -676,10 +507,15 @@
         const x = (col + margin) * unit;
         const y = (row + margin) * unit;
         const finder = isFinderModule(row, col, count);
-        if (finder) {
-          ctx.fillRect(Math.floor(x), Math.floor(y), Math.ceil(unit + .25), Math.ceil(unit + .25));
+        if (state.settings.moduleStyle === 'dots' && !finder) {
+          ctx.beginPath();
+          ctx.arc(x + unit / 2, y + unit / 2, unit * .43, 0, Math.PI * 2);
+          ctx.fill();
+        } else if (state.settings.moduleStyle === 'rounded' && !finder) {
+          roundedRect(ctx, x + unit * .06, y + unit * .06, unit * .88, unit * .88, unit * .24);
+          ctx.fill();
         } else {
-          drawModule(ctx, state.settings.moduleStyle, x, y, unit);
+          ctx.fillRect(Math.floor(x), Math.floor(y), Math.ceil(unit + .25), Math.ceil(unit + .25));
         }
       }
     }
@@ -727,20 +563,6 @@
     });
   }
 
-
-  function svgModule(style, x, y) {
-    switch (style) {
-      case 'dots': return `<circle cx="${x + .5}" cy="${y + .5}" r=".43" fill="__FG__"/>`;
-      case 'rounded': return `<rect x="${x + .06}" y="${y + .06}" width=".88" height=".88" rx=".24" fill="__FG__"/>`;
-      case 'extraRounded': return `<rect x="${x + .08}" y="${y + .08}" width=".84" height=".84" rx=".38" fill="__FG__"/>`;
-      case 'diamond': return `<path d="M ${x + .5} ${y + .05} L ${x + .95} ${y + .5} L ${x + .5} ${y + .95} L ${x + .05} ${y + .5} Z" fill="__FG__"/>`;
-      case 'hex': return `<path d="M ${x + .5} ${y + .04} L ${x + .88} ${y + .26} L ${x + .88} ${y + .74} L ${x + .5} ${y + .96} L ${x + .12} ${y + .74} L ${x + .12} ${y + .26} Z" fill="__FG__"/>`;
-      case 'star': return `<path d="M ${x + .5} ${y + .08} L ${x + .62} ${y + .38} L ${x + .92} ${y + .5} L ${x + .62} ${y + .62} L ${x + .5} ${y + .92} L ${x + .38} ${y + .62} L ${x + .08} ${y + .5} L ${x + .38} ${y + .38} Z" fill="__FG__"/>`;
-      case 'classy': return `<rect x="${x + .02}" y="${y + .12}" width=".96" height=".76" rx=".2" fill="__FG__"/>`;
-      default: return `<rect x="${x}" y="${y}" width="1.02" height="1.02" fill="__FG__"/>`;
-    }
-  }
-
   function buildSvg(qr) {
     const count = qr.getModuleCount();
     const margin = 4;
@@ -755,8 +577,9 @@
         const x = col + margin;
         const y = row + margin;
         const finder = isFinderModule(row, col, count);
-        if (finder) parts.push(`<rect x="${x}" y="${y}" width="1.02" height="1.02" fill="${fg}"/>`);
-        else parts.push(svgModule(style, x, y).replaceAll('__FG__', fg));
+        if (style === 'dots' && !finder) parts.push(`<circle cx="${x + .5}" cy="${y + .5}" r=".43" fill="${fg}"/>`);
+        else if (style === 'rounded' && !finder) parts.push(`<rect x="${x + .06}" y="${y + .06}" width=".88" height=".88" rx=".24" fill="${fg}"/>`);
+        else parts.push(`<rect x="${x}" y="${y}" width="1.02" height="1.02" fill="${fg}"/>`);
       }
     }
     if (state.logoDataUrl) {
@@ -891,9 +714,7 @@
     state.settings = { ...defaultSettings, ...entry.settings };
     state.logoDataUrl = entry.logoDataUrl || '';
     state.logoName = entry.logoName || '';
-    state.selectedPresetId = '';
     syncSettingsControls();
-    renderPresetLibrary();
     renderTypeTabs();
     renderFields();
     updateLogoStatus();
@@ -923,8 +744,6 @@
       state.settings = { ...defaultSettings, ...(saved.settings || {}) };
       state.logoDataUrl = typeof saved.logoDataUrl === 'string' ? saved.logoDataUrl : '';
       state.logoName = typeof saved.logoName === 'string' ? saved.logoName : '';
-      state.selectedPresetId = typeof saved.selectedPresetId === 'string' ? saved.selectedPresetId : '';
-      state.presetCategory = typeof saved.presetCategory === 'string' ? saved.presetCategory : 'all';
     } catch {}
   }
 
@@ -937,7 +756,6 @@
     $('#qrSizeValue').textContent = `${state.settings.size} px`;
     $('#errorCorrection').value = state.settings.errorCorrection;
     $('#moduleStyle').value = state.settings.moduleStyle;
-    const category = $('#presetCategory'); if (category) category.value = state.presetCategory || 'all';
   }
 
   function validHex(value) { return /^#[0-9A-F]{6}$/i.test(value); }
@@ -951,16 +769,14 @@
       $(color).addEventListener('input', () => {
         state.settings[key] = $(color).value.toUpperCase();
         $(hex).value = state.settings[key];
-        state.selectedPresetId = '';
-        saveWorkingState(); renderPresetLibrary(); updatePreview();
+        saveWorkingState(); updatePreview();
       });
       $(hex).addEventListener('input', () => {
         const value = $(hex).value.trim();
         if (validHex(value)) {
           state.settings[key] = value.toUpperCase();
           $(color).value = state.settings[key];
-          state.selectedPresetId = '';
-          saveWorkingState(); renderPresetLibrary(); updatePreview();
+          saveWorkingState(); updatePreview();
         }
       });
       $(hex).addEventListener('blur', () => { $(hex).value = state.settings[key].toUpperCase(); });
@@ -972,13 +788,11 @@
     });
     $('#errorCorrection').addEventListener('change', () => {
       state.settings.errorCorrection = $('#errorCorrection').value;
-      state.selectedPresetId = '';
-      saveWorkingState(); renderPresetLibrary(); updatePreview();
+      saveWorkingState(); updatePreview();
     });
     $('#moduleStyle').addEventListener('change', () => {
       state.settings.moduleStyle = $('#moduleStyle').value;
-      state.selectedPresetId = '';
-      saveWorkingState(); renderPresetLibrary(); updatePreview();
+      saveWorkingState(); updatePreview();
     });
   }
 
@@ -1094,10 +908,8 @@
     });
     $('#resetStyleBtn').addEventListener('click', () => {
       state.settings = { ...defaultSettings };
-      state.selectedPresetId = '';
-      state.presetCategory = 'all';
       state.logoDataUrl = ''; state.logoName = '';
-      syncSettingsControls(); renderPresetLibrary(); updateLogoStatus(); saveWorkingState(); updatePreview(); toast(t('styleReset'));
+      syncSettingsControls(); updateLogoStatus(); saveWorkingState(); updatePreview(); toast(t('styleReset'));
     });
     $('#logoUpload').addEventListener('change', (event) => {
       handleLogoFile(event.target.files?.[0]);
@@ -1108,11 +920,6 @@
       updateLogoStatus(); saveWorkingState(); updatePreview(); toast(t('logoRemoved'));
     });
     $('#saveHistoryBtn').addEventListener('click', saveToHistory);
-    $('#presetCategory')?.addEventListener('change', () => {
-      state.presetCategory = $('#presetCategory').value;
-      saveWorkingState();
-      renderPresetLibrary();
-    });
     $('#downloadPngBtn').addEventListener('click', downloadPng);
     $('#downloadSvgBtn').addEventListener('click', downloadSvg);
     $('#copyBtn').addEventListener('click', copyQr);

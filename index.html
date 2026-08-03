@@ -117,6 +117,18 @@
           </div>
 
           <div class="customize-grid">
+            <div class="control-group control-group--wide preset-library-group">
+              <div class="label-row">
+                <label for="presetCategory" data-i18n="presetLibrary">Thư viện style QR</label>
+              </div>
+              <p class="field-note" data-i18n="presetLibraryHint">Chọn nhanh 1 trong 50 preset theo ngành nghề.</p>
+              <div class="preset-toolbar">
+                <label for="presetCategory" class="preset-toolbar__label" data-i18n="presetCategory">Nhóm preset</label>
+                <select id="presetCategory" class="select-input"></select>
+              </div>
+              <div id="presetGrid" class="preset-grid"></div>
+            </div>
+
             <div class="control-group">
               <label data-i18n="foregroundColor">Màu mã QR</label>
               <div class="color-control">
@@ -157,6 +169,11 @@
                 <option value="square" data-i18n="styleSquare">Vuông</option>
                 <option value="rounded" data-i18n="styleRounded">Bo tròn</option>
                 <option value="dots" data-i18n="styleDots">Chấm tròn</option>
+                <option value="extraRounded">Extra Rounded</option>
+                <option value="diamond">Diamond</option>
+                <option value="hex">Hexagon</option>
+                <option value="star">Star</option>
+                <option value="classy">Classy</option>
               </select>
             </div>
 

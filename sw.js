@@ -1,4 +1,4 @@
-const CACHE_NAME = 'qr-studio-v1.0.1';
+﻿const CACHE_NAME = 'qr-studio-v1.1.0';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -39,3 +39,4 @@ self.addEventListener('fetch', (event) => {
     );
   }
 });
+
